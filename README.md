@@ -7,13 +7,19 @@ firs, donload love2d!!
 nex, how run gam: https://love2d.org/wiki/Getting_Started#Running_Games
 
 ## Mod contents(as of now)
- A new tab in the editor
- 5 new properties (local,global,uwu,negativ(WIP),lazor(doesn't work yet))
- 11 new characters
- A new type of word (indefinite) that behaves like every1 and its derivatives from bab but can refer to any arbitary set of objects
- New thingify interactions
- Anyself(themself for any/all pronouns) retexture/rework
- Meow button
+A new tab in the editor
+
+5 new properties (local,global,uwu,negativ(WIP),lazor(doesn't work yet))
+
+11 new characters
+
+A new type of word (indefinite) that behaves like every1 and its derivatives from bab but can refer to any arbitary set of objects
+
+New thingify interactions
+
+Anyself(themself for any/all pronouns) retexture/rework
+
+Meow button
 ## Character credits
 (Will be properly updated as soon as i ask the owners of the characters how i should credit them)
 
