@@ -22,10 +22,15 @@ Literaly everyone except ilhniwtcm: not Ilhniwtcm
 ilhniwtcm: Ilhniwtcm
 
 ## Known bugs that are worked on:
+
 Overlays don't work with negativ objects
+
 The(the object you get by thingifying txt_the) can't be refered in anyway
+
 Some of the characters can't be painted properly
+
 Lazor(property) doesn't work
+
 Making something whose color is defined using rgb instead of the pallete paint something else crashes the game(is also a bug with the og game)
 
 
