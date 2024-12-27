@@ -25,7 +25,7 @@ Meow button
 
 Nero by [navisludge](https://navisludge.nekoweb.org)
 
-Literaly everyone except ilhniwtcm: not Ilhniwtcm
+Literaly everyone else except ilhniwtcm: not Ilhniwtcm
 
 ilhniwtcm: Ilhniwtcm
 
