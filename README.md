@@ -23,7 +23,9 @@ Meow button
 ## Character credits
 (Will be properly updated as soon as i ask the owners of the characters how i should credit them)
 
-Literaly everyone except ilhniwtcm: not Ilhniwtcm
+Nero by [navisludge](https://navisludge.nekoweb.org)
+
+Literaly everyone else except ilhniwtcm: not Ilhniwtcm
 
 ilhniwtcm: Ilhniwtcm
 
