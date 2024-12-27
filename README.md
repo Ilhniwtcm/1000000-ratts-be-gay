@@ -14,12 +14,12 @@ A new type of word (indefinite) that behaves like every1 and its derivatives fro
 New thingify interactions
 Anyself(themself for any/all pronouns) retexture/rework
 Meow button
-##Character credits
+## Character credits
 (Will be properly updated as soon as i ask the owners of the characters how i should credit them)
 Literaly everyone except ilhniwtcm: not Ilhniwtcm
 ilhniwtcm: Ilhniwtcm
 
-##Known bugs that are worked on:
+## Known bugs that are worked on:
 Overlays don't work with negativ objects
 The(the object you get by thingifying txt_the) can't be refered in anyway
 Some of the characters can't be painted properly
