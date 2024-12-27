@@ -1,0 +1,376 @@
+[
+  {
+    "name": "txt_w/fren",
+    "sprite": ["txt/wfren"],
+    "metasprite": ["txt/wfren meta"],
+    "types": ["cond_infix"],
+    "color": [[0, 3]],
+    "desc": "W/ FREN (Infix Condition): True if the unit shares a tile with this object.\nDespite what it might look like, w/fren't doesn't work with letters.",
+    "tags": ["on", "wfren"]
+  },
+  {
+    "name": "txt_lookat",
+    "display": "look at",
+    "sprite": ["txt/lookat"],
+    "types": ["cond_infix", "verb_unit", "cond_infix_dir", "verb"],
+    "color": [[0, 3]],
+    "desc": "LOOK AT: As an infix condition, true if this object is on the tile in front of the unit. As a verb, makes the unit face this object at end of turn.\nAnti: lookaway",
+    "tags": ["follow", "facing", "lookat"]
+  },
+  {
+    "name": "txt_lookaway",
+    "display": "look away",
+    "sprite": ["txt/lookaway"],
+    "types": ["cond_infix", "verb_unit", "cond_infix_dir", "verb"],
+    "color": [[0, 3]],
+    "desc": "LOOK AWAY: As an infix condition, true if this object is on the tile behind the unit As a verb, makes the unit face away from this object at end of turn.\nAnti: lookat",
+    "tags": ["unfollow", "facing away", "lookaway", "behind"]
+  },
+  {
+    "name": "txt_behind",
+    "sprite": ["txt/behind"],
+    "types": ["cond_infix"],
+    "color": [[0, 3]],
+    "desc": "BEHIND (Infix Condition): True if an indicated object is looking away from the unit on an adjacent tile.\nAnti: seenby",
+    "tags": ["back", "look"]
+  },
+  {
+    "name": "txt_beside",
+    "sprite": ["txt/beside"],
+    "types": ["cond_infix"],
+    "color": [[0, 3]],
+    "desc": "BESIDE (Infix Condition): True if an indicated object is at the side of the unit on an adjacent tile.\nAnti: diagonals",
+    "tags": ["look", "left", "right"]
+  },
+  {
+    "name": "txt_frenles",
+    "sprite": ["txt/frenles"],
+    "types": ["cond_prefix"],
+    "color": [[2, 2]],
+    "desc": "FRENLES (Prefix Condition): True if the unit is alone on its tile.",
+    "tags": ["lonely", "friendless"]
+  },
+  {
+    "name": "txt_arond",
+    "sprite": ["txt/arond"],
+    "types": ["cond_infix"],
+    "color": [[0, 3]],
+    "desc": "AROND (Infix Condition): True if the indicated object is on any of the tiles surrounding the unit. (The unit's own tile is not checked.) ORTHO/DIAG AROND will only check the tiles orthogonally or diagonally. GO^ AROND will only check the tile in that direction.",
+    "tags": ["near", "around"]
+  },
+  {
+    "name": "txt_wait...",
+    "sprite": ["txt/wait"],
+    "metasprite": ["txt/wait meta"],
+    "types": ["cond_prefix"],
+    "color": [[0, 3]],
+    "desc": "WAIT... (Prefix Condition): True if the player waited last input. (This does not include clicks.)",
+    "tags": ["idle"]
+  },
+  {
+    "name": "txt_sans",
+    "sprite": ["txt/sans"],
+    "sprite_transforms": {
+      "property": "txt/sans_property"
+    },
+    "metasprite": ["txt/sans meta"],
+    "types": ["cond_infix", "property"],
+    "color": [[1, 4]],
+    "desc": "SANS (Infix Condition): True if none of the indicated object exist in the level. Does not include itself (so BAB SANS BAB is true if there is only one bab in the level).",
+    "tags": ["without", "w/o"]
+  },
+  {
+    "name": "txt_mayb",
+    "sprite": ["txt/mayb"],
+    "types": ["cond_prefix"],
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "? (MAYBE) (Prefix Condition): Has a chance of being true, independent for each MAYBE, affected unit and turn. The number on top indicates the % chance of being true. Compatible with N'T.",
+    "tags": ["/", "maybe", "random", "rng", "patashu"]
+  },
+  {
+    "name": "txt_seenby",
+    "display": "seen by",
+    "sprite": ["txt/seenby"],
+    "types": ["cond_infix"],
+    "color": [[0, 3]],
+    "desc": "SEEN BY (Infix Condition): True if an indicated object is looking at this unit from an adjacent tile.\nAnti: behind",
+    "tags": ["seenby", "looked at", "in front"]
+  },
+  {
+    "name": "txt_lit",
+    "sprite": ["txt/lit"],
+    "types": ["cond_prefix"],
+    "color": [[2, 4]],
+    "desc": "LIT (Prefix Condition): A BRITE object emits light in all directions. LIT will be true for objects on the same FLYE level if nothing TRANPARN'T is in the way.",
+    "tags": ["powered"]
+  },
+  {
+    "name": "txt_an",
+    "sprite": ["txt/an"],
+    "types": ["cond_prefix"],
+    "color": [[0, 3]],
+    "desc": "AN (Prefix Condition): True for a single arbitrary unit per turn and condition. To get multiple results in one tile, rotate the ANs in different directions.",
+    "tags": ["rng", "random"]
+  },
+  {
+    "name": "txt_reed",
+    "sprite": ["txt/reed_cond"],
+    "sprite_transforms": {
+      "property": "txt/reed"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[2, 2]],
+    "desc": "REED: Causes the unit to appear red.\nAnti: cyeann",
+    "tags": ["colors", "colours", "red"]
+  },
+  {
+    "name": "txt_bleu",
+    "sprite": ["txt/bleu_cond"],
+    "sprite_transforms": {
+      "property": "txt/bleu"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[1, 3]],
+    "desc": "BLEU: Causes the unit to appear blue.\nAnti: orang",
+    "tags": ["colors", "colours", "blue"]
+  },
+  {
+    "name": "txt_grun",
+    "sprite": ["txt/grun_cond"],
+    "sprite_transforms": {
+      "property": "txt/grun"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[5, 2]],
+    "desc": "GRUN: Causes the unit to appear green.\nBleu+Yello.\nAnti: pinc",
+    "tags": ["colors", "colours", "green"]
+  },
+  {
+    "name": "txt_yello",
+    "sprite": ["txt/yello_cond"],
+    "sprite_transforms": {
+      "property": "txt/yello"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[2, 4]],
+    "desc": "YELLO: Causes the unit to appear yellow.\nReed+Grun.\nAnti: purp",
+    "tags": ["colors", "colours", "yellow"]
+  },
+  {
+    "name": "txt_purp",
+    "sprite": ["txt/purp_cond"],
+    "sprite_transforms": {
+      "property": "txt/purp"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[3, 1]],
+    "desc": "PURP: Causes the unit to appear purple.\nReed+Bleu.\nAnti: yello",
+    "tags": ["colors", "colours", "purple"]
+  },
+  {
+    "name": "txt_orang",
+    "sprite": ["txt/orang_cond"],
+    "sprite_transforms": {
+      "property": "txt/orang"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[2, 3]],
+    "desc": "ORANG: Causes the unit to appear orange.\nReed+Yello.\nAnti: bleu",
+    "tags": ["colors", "colours", "orange"]
+  },
+  {
+    "name": "txt_cyeann",
+    "sprite": ["txt/cyeann_cond"],
+    "sprite_transforms": {
+      "property": "txt/cyeann"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[1, 4]],
+    "desc": "CYEANN: Causes the unit to appear cyan.\nBleu+Grun.\nAnti: reed",
+    "tags": ["colors", "colours", "cyan"]
+  },
+  {
+    "name": "txt_whit",
+    "sprite": ["txt/whit_cond"],
+    "sprite_transforms": {
+      "property": "txt/whit"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[0, 3]],
+    "desc": "WHIT: Causes the unit to appear white.\nReed+Bleu+Grun, Bleu+Yello, Reed+Cyeann, Grun+Purp.\nAnti: blacc",
+    "tags": ["colors", "colours", "white"]
+  },
+  {
+    "name": "txt_blacc",
+    "sprite": ["txt/blacc_cond"],
+    "sprite_transforms": {
+      "property": "txt/blacc"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[0, 0]],
+    "desc": "BLACC: Causes the unit to appear black.\nAnti: whit",
+    "tags": ["colors", "colours", "black"]
+  },
+  {
+    "name": "txt_pinc",
+    "sprite": ["txt/pinc_cond"],
+    "sprite_transforms": {
+      "property": "txt/pinc"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[4, 1]],
+    "desc": "PINC: Causes the unit to appear pink!\nReed+Whit.\nAnti: grun",
+    "tags": ["colors", "colours", "pink"]
+  },
+  {
+    "name": "txt_graey",
+    "sprite": ["txt/graey_cond"],
+    "sprite_transforms": {
+      "property": "txt/graey"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[0, 1]],
+    "desc": "GRAEY: Causes the unit to appear gray/grey.\nBlacc+Whit.\nAnti: graey",
+    "tags": ["colors", "colours", "gray", "grey"]
+  },
+  {
+    "name": "txt_brwn",
+    "sprite": ["txt/brwn_cond"],
+    "sprite_transforms": {
+      "property": "txt/brwn"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[6, 0]],
+    "desc": "BRWN: Causes the unit to appear brown.\nOrang+Blacc.\nAnti: cyeann",
+    "tags": ["colors", "colours", "brown"]
+  },
+  {
+    "name": "txt_corekt",
+    "sprite": ["txt/corekt"],
+    "types": ["cond_prefix"],
+    "color": [[5, 2]],
+    "desc": "COREKT (Prefix Condition): True if the unit is in an active rule.",
+    "tags": ["correct", "cg5"]
+  },
+  {
+    "name": "txt_rong",
+    "sprite": ["txt/rong"],
+    "sprite_transforms": {
+      "property": "txt/rong_prop"
+    },
+    "types": ["property", "cond_prefix"],
+    "color": [[2, 2]],
+    "desc": "RONG: As a prefix, true if the unit is in a negated rule (via rong, n't, or notranform). As a property, if a rule has a rong unit in it it'll be negated.",
+    "tags": ["wrong", "false", "cg5"]
+  },
+  {
+    "name": "txt_the",
+    "sprite": ["txt/the"],
+    "types": ["object", "cond_prefix"],
+    "color": [[0, 3]],
+    "rotate": true,
+    "thingify":"the",
+    "desc": "THE: Refers to the object it's pointing at.",
+    "tags": ["that", "those", "cg5", "the^", "the ->"]
+  },
+  {
+    "name": "txt_that",
+    "sprite": ["txt/that"],
+    "types": ["cond_infix", "cond_infix_verb"],
+    "color": [[0, 3]],
+    "desc": "THAT (Infix Condition): x THAT BE y is true if x BE y. x THAT GOT Y is true if x GOT y. And so on.",
+    "tags": ["lily", "with", "w/"]
+  },
+  {
+    "name": "txt_thatbe",
+    "display": "that be",
+    "sprite": ["txt/that be"],
+    "types": ["cond_infix", "cond_infix_verb", "cond_infix_verb_plus"],
+    "color": [[0, 3]],
+    "desc": "THAT BE (Infix Condition): x THAT BE y is true if x BE y.",
+    "tags": ["lily", "with", "w/"]
+  },
+  {
+    "name": "txt_thatgot",
+    "display": "that got",
+    "sprite": ["txt/that got"],
+    "types": ["cond_infix", "cond_infix_verb", "cond_infix_verb_plus"],
+    "color": [[0, 3]],
+    "desc": "THAT GOT (Infix Condition): x THAT GOT y is true if x GOT y.",
+    "tags": ["lily", "with", "w/", "infix condition"]
+  },
+  {
+    "name": "txt_timles",
+    "sprite": ["txt/timles"],
+    "types": ["cond_prefix"],
+    "color": [[2, 4]],
+    "desc": "TIMLES (Prefix Condition): True if ZA WARUDO is active.",
+    "tags": ["timeless"]
+  },
+  {
+    "name": "txt_clikt",
+    "sprite": ["txt/clikt"],
+    "metasprite": ["txt/clikt meta"],
+    "types": ["cond_prefix"],
+    "color": [[3, 3]],
+    "desc": "CLIKT (Prefix Condition): CLIKT objects will be true when left-clicked. Clicks will pass a turn if this text exists.\nAnti: right click (does not prevent the stack box, though it's made after the move has been made)",
+    "tags": ["clicked", "mouse"]
+  },
+  {
+    "name": "txt_wun",
+    "sprite": ["txt/wun"],
+    "types": ["cond_prefix"],
+    "color": [[2, 4]],
+    "desc": "WUN: A prefix condition that's true if the unit is a won level. If the unit isn't a level, then true if the current level is won.",
+    "tags": ["won", "patashu"]
+  },
+  {
+    "name": "txt_past",
+    "sprite": ["txt/past"],
+    "types": ["cond_prefix"],
+    "color": [[3, 3]],
+    "desc": "PAST (Prefix Condition): Applies the rule to turns that have already happened. (It's about as great as it sounds.)"
+  },
+  {
+    "name": "txt_oob",
+    "sprite": ["txt/oob"],
+    "types": ["cond_prefix"],
+    "color": [[1, 2]],
+    "desc": "OOB (Prefix Condition): True if the unit is on a border.",
+    "tags": ["out of bounds"]
+  },
+  {
+    "name": "txt_alt",
+    "sprite": ["txt/alt"],
+    "types": ["cond_prefix"],
+    "color": [[1, 3]],
+    "desc": "ALT (Prefix Condition): True every other turn.",
+    "tags": ["correct", "cg5"]
+  },
+  {
+    "name": "txt_deez",
+    "sprite": ["txt/deez"],
+    "types": ["object", "cond_prefix"],
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "DEEZ: Refers to the objects in the direction it's pointing at.",
+    "tags": ["that", "those", "cg5", "the^", "the ->", "these"]
+  },
+  {
+    "name": "txt_meow",
+    "sprite": ["txt/meow"],
+    "types": ["cond_infix", "gang_prefix"],
+    "color": [[2, 4]],
+    "desc": "Like AROND, but instead of only checking one tile it goes until it hits a TRANPARN'T object, following spatial warping/etc.\nCurrently has a range cap of 100 because it's laggy.",
+    "tags": ["infix", "stare at"]
+  },
+  {
+    "name": "txt_offgrid",
+    "sprite": ["txt/offgrid"],
+    "types": ["cond_prefix"],
+    "color": [[5, 2]],
+    "desc": "OFFGRID (PREFIX CONDITION): True if the unit is not exactly on a tile (Like from halfstep).",
+    "tags": ["hal", "misaligned","missalined","missaligned"]
+  }
+]

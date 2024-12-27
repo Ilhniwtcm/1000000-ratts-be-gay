@@ -1,0 +1,2932 @@
+[
+  {
+    "name": "wal",
+    "sprite": ["wal"],
+    "layer": 2,
+    "color": [[1, 1]],
+    "desc": "ston briks",
+    "tags": ["wall"],
+    "pronouns": ["it"]
+  },
+  {
+    "name": "txt_wal",
+    "sprite": ["txt/wal"],
+    "metasprite": ["txt/wal meta"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "desc": "uigi isn't gonna be in smash",
+    "tags": ["wall"]
+  },
+  {
+    "name": "txt_waln't",
+    "display": "wal n't",
+    "sprite": ["txt/wal meta", "n't"],
+    "types": ["object"],
+    "color": [[0, 1], [2, 2]],
+    "painted": [true, false],
+    "desc": "WAL N'T: The same as having these two text tiles in a row."
+  },
+  {
+    "name": "roc",
+    "sprite": ["roc"],
+    "layer": 7,
+    "color": [[6, 2]],
+    "voice": "s_bdrum",
+    "desc": "roc: not a bord",
+    "tags": ["rock"]
+  },
+  {
+    "name": "txt_roc",
+    "sprite": ["txt/roc"],
+    "metasprite": ["txt/roc meta"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["rock"]
+  },
+  {
+    "name": "txt_rocn't",
+    "display": "roc n't",
+    "sprite": ["txt/roc meta", "n't"],
+    "types": ["object"],
+    "color": [[6, 1], [2, 2]],
+    "painted": [true, false],
+    "desc": "ROC N'T: The same as having these two text tiles in a row."
+  },
+  {
+    "name": "dor",
+    "sprite": ["dor"],
+    "layer": 3,
+    "color": [[2, 2]],
+    "desc": "for door",
+    "tags": ["door"]
+  },
+  {
+    "name": "txt_dor",
+    "sprite": ["txt/dor"],
+    "metasprite": ["txt/dor meta"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["door"]
+  },
+  {
+    "name": "kee",
+    "sprite": ["kee"],
+    "layer": 8,
+    "color": [[2, 4]],
+    "rotate": true,
+    "voice": "s_hiclose",
+    "desc": "needs key",
+    "tags": ["key"]
+  },
+  {
+    "name": "txt_kee",
+    "sprite": ["txt/kee"],
+    "metasprite": ["txt/kee meta"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["key"]
+  },
+  {
+    "name": "flog",
+    "sprite": ["flog"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "voice": "s_marim",
+    "desc": "i want 1!!!",
+    "tags": ["flag"]
+  },
+  {
+    "name": "txt_flog",
+    "sprite": ["txt/flog"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["flag"]
+  },
+  {
+    "name": "til",
+    "sprite": ["til"],
+    "layer": 3,
+    "color": [[1, 0]],
+    "desc": "it goes under your feet",
+    "tags": ["tile"]
+  },
+  {
+    "name": "watr",
+    "sprite": ["watr"],
+    "layer": 2,
+    "color": [[1, 3]],
+    "desc": "splish sploosh",
+    "tags": ["water"]
+  },
+  {
+    "name": "txt_watr",
+    "sprite": ["txt/watr"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["water"]
+  },
+  {
+    "name": "txt_boux",
+    "sprite": ["txt/boux"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["box"]
+  },
+  {
+    "name": "boux",
+    "sprite": ["boux"],
+    "layer": 7,
+    "color": [[6, 2]],
+    "voice": "s_sdrum",
+    "desc": "ce n'est pas une boîte, c'est quelque chose DE MIEUX",
+    "tags": ["box"]
+  },
+  {
+    "name": "txt_laav",
+    "sprite": ["txt/laav"],
+    "types": ["object"],
+    "color": [[2, 3]],
+    "tags": ["lava"]
+  },
+  {
+    "name": "laav",
+    "sprite": ["watr"],
+    "layer": 2,
+    "color": [[2, 3]],
+    "desc": "very hot. not hotte tho unless u make it",
+    "tags": ["lava"]
+  },
+  {
+    "name": "txt_til",
+    "sprite": ["txt/til"],
+    "metasprite": ["txt/til meta"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["tile"]
+  },
+  {
+    "name": "l..uv",
+    "sprite": ["luv"],
+    "layer": 7,
+    "color": [[4, 2]],
+    "desc": "makes up the very fabric of reality of bab be u",
+    "tags": ["love"]
+  },
+  {
+    "name": "txt_l..uv",
+    "sprite": ["txt/luv"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "desc": "LÜV: To use with letters, you need an umlaut!",
+    "alias": ["l*v"],
+    "tags": ["love"]
+  },
+  {
+    "name": "frut",
+    "sprite": ["frut"],
+    "layer": 6,
+    "color": [[2, 2]],
+    "rotate": true,
+    "desc": "babs favorite snacc. not to be confused with OS appl",
+    "tags": ["fruit", "apple", "plants", "food"]
+  },
+  {
+    "name": "txt_frut",
+    "sprite": ["txt/frut"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["fruit", "apple", "plants", "food"]
+  },
+  {
+    "name": "tre",
+    "sprite": ["tre"],
+    "layer": 4,
+    "color": [[5, 2]],
+    "rotate": true,
+    "desc": "tre is the creator of all plant life in bab",
+    "tags": ["tree", "plants"]
+  },
+  {
+    "name": "txt_tre",
+    "sprite": ["txt/tre"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["tree", "plants"]
+  },
+  {
+    "name": "txt_boll",
+    "sprite": ["txt/boll"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "tags": ["orb", "ball"]
+  },
+  {
+    "name": "boll",
+    "sprite": ["orrb"],
+    "layer": 6,
+    "color": [[4, 1]],
+    "desc": "hnmm... roun. colecc",
+    "tags": ["orb", "ball"]
+  },
+  {
+    "name": "txt_bellt",
+    "sprite": ["txt/bellt"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["belt"]
+  },
+  {
+    "name": "bellt",
+    "sprite": ["bellt"],
+    "layer": 3,
+    "color": [[1, 1]],
+    "rotate": true,
+    "desc": "bells and bellts are both metal so theyre basically the same thing right? dont tell anyone",
+    "tags": ["belt"]
+  },
+  {
+    "name": "gunne",
+    "sprite": ["gunne"],
+    "layer": 8,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "all i wanna do is *bang* *bang* *bang* *bang*",
+    "tags": ["weapon"]
+  },
+  {
+    "name": "txt_gunne",
+    "sprite": ["txt/gunne"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "GUNNE: Any object with GOT GUNNE will wield a GUNNE.",
+    "tags": ["weapon"]
+  },
+  {
+    "name": "gras",
+    "sprite": ["gras"],
+    "layer": 3,
+    "color": [[5, 1]],
+    "desc": "don step on it. or do step on it. ur choice",
+    "tags": ["grass", "plants"]
+  },
+  {
+    "name": "txt_gras",
+    "sprite": ["txt/gras"],
+    "types": ["object"],
+    "color": [[5, 3]],
+    "tags": ["grass", "plants"]
+  },
+  {
+    "name": "dayzy",
+    "sprite": ["dayzy"],
+    "layer": 4,
+    "color": [[3, 3]],
+    "features": {
+      "sans": {"x": 10, "y": 7, "w": 3, "h": 3}
+    },
+    "desc": "dayzy me rollin, they haetin",
+    "tags": ["violet", "daisy", "flower", "plants"]
+  },
+  {
+    "name": "txt_dayzy",
+    "sprite": ["txt/dayzy"],
+    "types": ["object"],
+    "color": [[3, 3]],
+    "tags": ["violet", "daisy", "flower", "plants"]
+  },
+  {
+    "name": "hurcane",
+    "sprite": ["hurcane"],
+    "layer": 4,
+    "color": [[3, 1]],
+    "features": {
+      "sans": {"x": 15, "y": 15, "w": 3, "h": 3}
+    },
+    "desc": "woosh swoosh vwoosh aaaa",
+    "tags": ["hurricane", "tornado"]
+  },
+  {
+    "name": "txt_hurcane",
+    "sprite": ["txt/hurcane"],
+    "types": ["object"],
+    "color": [[3, 1]],
+    "tags": ["hurricane", "tornado"]
+  },
+  {
+    "name": "hatt",
+    "sprite": ["hat"],
+    "layer": 7,
+    "color": [[3, 1]],
+    "desc": "a hatt n tim",
+    "tags": ["clothing"]
+  },
+  {
+    "name": "txt_hatt",
+    "sprite": ["txt/hatt"],
+    "types": ["object"],
+    "color": [[3, 1]],
+    "desc": "HATT: Any object with GOT HATT will wear a HATT. (Aesthetic)",
+    "tags": ["clothing"]
+  },
+  {
+    "name": "press",
+    "sprite": ["press"],
+    "layer": 20,
+    "color": [[0, 3]],
+    "desc": "it presses buttons"
+  },
+  {
+    "name": "chekr",
+    "sprite": ["chekr"],
+    "layer": 3,
+    "color": [[3, 2]],
+    "desc": "ya wannna ploy checkrz?",
+    "tags": ["checker", "diamond"]
+  },
+  {
+    "name": "txt_chekr",
+    "sprite": ["txt/chekr"],
+    "types": ["object"],
+    "color": [[3, 2]],
+    "tags": ["checker", "diamond"]
+  },
+  {
+    "name": "arro",
+    "sprite": ["arro"],
+    "layer": 3,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "ARRO: Is supposed to act like a letter, but that's not implemented yet.",
+    "tags": ["arrow"]
+  },
+  {
+    "name": "txt_arro",
+    "sprite": ["txt/arro"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["arrow"]
+  },
+  {
+    "name": "txt_colld",
+    "sprite": ["txt/colld"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "tags": ["ice"]
+  },
+  {
+    "name": "colld",
+    "sprite": ["colld"],
+    "layer": 3,
+    "color": [[1, 4]],
+    "desc": "nothin says colld like diagonal lines",
+    "tags": ["ice"]
+  },
+  {
+    "name": "txt_piler",
+    "sprite": ["txt/piler"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["pillar"]
+  },
+  {
+    "name": "piler",
+    "sprite": ["piler"],
+    "layer": 3,
+    "color": [[0, 1]],
+    "desc": "secretly made from several pairs of pliers sacrificed to keepin babs out (or in)",
+    "tags": ["pillar"]
+  },
+  {
+    "name": "clowd",
+    "sprite": ["clowd"],
+    "layer": 6,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "clowd and rein are good frens. not bffs though, clowd's bff is tifa",
+    "tags": ["cloud"]
+  },
+  {
+    "name": "txt_clowd",
+    "sprite": ["txt/clowd"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["cloud"]
+  },
+  {
+    "name": "infloop",
+    "sprite": ["txt/infloop"],
+    "layer": 21,
+    "color": [[0, 3]],
+    "tags": ["infinity", "infinite loop"]
+  },
+  {
+    "name": "plsdont",
+    "sprite": ["txt/plsdont"],
+    "layer": 21,
+    "color": [[0, 3]],
+    "tags": ["too complex", "plz dont"]
+  },
+  {
+    "name": "petnygrame",
+    "sprite": ["petnygrame"],
+    "layer": 4,
+    "color": [[2, 1]],
+    "desc": "perform the ritual to summon the real bab dictator",
+    "tags": ["pentagram", "edgy"]
+  },
+  {
+    "name": "txt_petnygrame",
+    "sprite": ["txt/petnygrame"],
+    "types": ["object"],
+    "color": [[2, 1]],
+    "tags": ["pentagram", "edgy"]
+  },
+  {
+    "name": "katany",
+    "sprite": ["katany"],
+    "layer": 8,
+    "color": [[0, 1]],
+    "rotate": true,
+    "desc": "very very weeb. make steev got katany and you will know",
+    "tags": ["weapon", "japan", "asia", "edgy"]
+  },
+  {
+    "name": "txt_katany",
+    "sprite": ["txt/katany"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "desc": "KATANY: Any object with GOT KATANY will have a KATANY.",
+    "alias": ["katanya"],
+    "tags": ["weapon", "japan", "asia", "edgy"]
+  },
+  {
+    "name": "scarr",
+    "sprite": ["scarr"],
+    "layer": 4,
+    "color": [[2, 1]],
+    "desc": "it's not blood it's just cranberry juice. no violence in my bab",
+    "tags": ["scar", "edgy"]
+  },
+  {
+    "name": "txt_scarr",
+    "sprite": ["txt/scarr"],
+    "types": ["object"],
+    "color": [[2, 1]],
+    "tags": ["scar", "edgy"]
+  },
+  {
+    "name": "pepis",
+    "sprite": ["pepis", "pepis_red", "pepis_blue"],
+    "layer": 7,
+    "color": [[0, 3], [2, 2], [1, 2]],
+    "painted": [false, true, true],
+    "desc": "pepis: tastes like tar and mud",
+    "tags": ["bepis", "pepsi"]
+  },
+  {
+    "name": "txt_pepis",
+    "sprite": ["txt/pepis"],
+    "types": ["object"],
+    "color": [[3, 2]],
+    "tags": ["bepis", "pepsi"]
+  },
+  {
+    "name": "clok",
+    "sprite": ["clok"],
+    "layer": 8,
+    "color": [[3, 3]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 14, "y": 14, "w": 3, "h": 3}
+    },
+    "voice": "tick",
+    "desc": "keek look at'd the clok. 'oh no! im late for school!' keek shouted and raced out of bed.",
+    "tags": ["clock", "time"]
+  },
+  {
+    "name": "txt_clok",
+    "sprite": ["txt/clok"],
+    "types": ["object"],
+    "color": [[3, 3]],
+    "tags": ["clock", "time"]
+  },
+  {
+    "name": "splittr",
+    "sprite": ["splittr"],
+    "layer": 4,
+    "color": [[0, 3]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 22, "y": 12, "w": 3, "h": 5}
+    },
+    "desc": "specifically made to be used with SPLIT because it looks horrible otherwise (but other tiles like CHAIN can also work).",
+    "tags": ["splitter", "5 step"]
+  },
+  {
+    "name": "txt_splittr",
+    "sprite": ["txt/splittr"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["splitter", "5 step"]
+  },
+  {
+    "name": "txt_slippers",
+    "sprite": ["txt/slippers"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "desc": "SLIPPERS: An object that GOT SLIPPERS will ignore ICY and ICYYYYY objects (and wear SLIPPERS)."
+  },
+  {
+    "name": "slippers",
+    "sprite": ["slippers"],
+    "layer": 8,
+    "color": [[1, 3]],
+    "desc": "the goomba that lived in this shoe is now homeless. how do you feel"
+  },
+  {
+    "name": "selctr",
+    "sprite": ["selctr"],
+    "layer": 3,
+    "color": [[3, 3]],
+    "desc": "used to select levis",
+    "tags": ["cursor", "selector"]
+  },
+  {
+    "name": "txt_selctr",
+    "sprite": ["txt/selctr"],
+    "types": ["object"],
+    "color": [[2, 3]],
+    "tags": ["cursor", "selector"]
+  },
+  {
+    "name": "lin",
+    "sprite": ["lin"],
+    "layer": 23,
+    "color": [[0, 3]],
+    "desc": "used to connect lovils",
+    "tags": ["line", "path"]
+  },
+  {
+    "name": "txt_lin",
+    "sprite": ["txt/lin"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "lin is used in floodfilling and can have a puff/blossom door attached to it.",
+    "tags": ["line", "path"]
+  },
+  {
+    "name": "firbolt",
+    "sprite": ["firbolt"],
+    "layer": 8,
+    "color": [[6, 2]],
+    "rotate": true,
+    "desc": "i cast FIRBOLT at the NO1!",
+    "tags": ["firebolt"]
+  },
+  {
+    "name": "txt_firbolt",
+    "sprite": ["txt/firbolt"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["firebolt"]
+  },
+  {
+    "name": "icbolt",
+    "sprite": ["icbolt"],
+    "layer": 8,
+    "color": [[1, 4]],
+    "rotate": true,
+    "desc": "its time for u to CHILL out. stay FROSTY.",
+    "tags": ["icebolt"]
+  },
+  {
+    "name": "txt_icbolt",
+    "sprite": ["txt/icbolt"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "tags": ["icebolt"]
+  },
+  {
+    "name": "hedg",
+    "sprite": ["hedg"],
+    "layer": 3,
+    "color": [[5, 1]],
+    "desc": "im hedg the hedg heg",
+    "tags": ["hedge", "plants"]
+  },
+  {
+    "name": "txt_hedg",
+    "sprite": ["txt/hedg"],
+    "types": ["object"],
+    "color": [[5, 1]],
+    "tags": ["hedge", "plants"]
+  },
+  {
+    "name": "fenss",
+    "sprite": ["fenss"],
+    "layer": 3,
+    "color": [[6, 2]],
+    "desc": "keeps babs out!!",
+    "tags": ["fence"]
+  },
+  {
+    "name": "txt_fenss",
+    "sprite": ["txt/fenss"],
+    "color": [[6, 2]],
+    "tags": ["fence"]
+  },
+  {
+    "name": "metl",
+    "sprite": ["metl"],
+    "layer": 2,
+    "color": [[0, 2]],
+    "desc": "impervious metl...",
+    "tags": ["metal"]
+  },
+  {
+    "name": "txt_metl",
+    "sprite": ["txt/metl"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["metal"]
+  },
+  {
+    "name": "sparkl",
+    "sprite": ["sparkl"],
+    "layer": 5,
+    "color": [[2, 4]],
+    "desc": "as brite as a star... but also as hotte as one!!",
+    "tags": ["sparkle", "dust"]
+  },
+  {
+    "name": "txt_sparkl",
+    "sprite": ["txt/sparkl"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["sparkle", "dust"]
+  },
+  {
+    "name": "spik",
+    "sprite": ["spik"],
+    "layer": 5,
+    "color": [[0, 2]],
+    "rotate": true,
+    "desc": "finally, i can make my i wanna be the bab fangame in bab be u",
+    "tags": ["spike"]
+  },
+  {
+    "name": "txt_spik",
+    "sprite": ["txt/spik"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["spike"]
+  },
+  {
+    "name": "spiky",
+    "sprite": ["spiky"],
+    "layer": 6,
+    "color": [[0, 2]],
+    "rotate": true,
+    "desc": "ouch!! many spik at once.",
+    "tags": ["spike"]
+  },
+  {
+    "name": "txt_spiky",
+    "sprite": ["txt/spiky"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["spike"]
+  },
+  {
+    "name": "platfor",
+    "sprite": ["platfor"],
+    "layer": 3,
+    "color": [[6, 2]],
+    "rotate": true,
+    "desc": "good for use with go my way",
+    "tags": ["platform"]
+  },
+  {
+    "name": "txt_platfor",
+    "sprite": ["txt/platfor"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["platform"]
+  },
+  {
+    "name": "jail",
+    "sprite": ["jail"],
+    "layer": 22,
+    "color": [[0, 2]],
+    "desc": "BAB W/FREN JAIL BE STUKC. now bab's in jail :("
+  },
+  {
+    "name": "txt_jail",
+    "sprite": ["txt/jail"],
+    "types": ["object"],
+    "color": [[0, 2]]
+  },
+  {
+    "name": "hol",
+    "sprite": ["hol"],
+    "layer": 22,
+    "color": [[3, 3]],
+    "rotate": true,
+    "portal": true,
+    "desc": "the real poor toll",
+    "tags": ["portal"]
+  },
+  {
+    "name": "txt_hol",
+    "sprite": ["txt/hol"],
+    "types": ["object"],
+    "color": [[3, 2]],
+    "tags": ["portal"]
+  },
+  {
+    "name": "rif",
+    "sprite": ["riff"],
+    "layer": 22,
+    "color": [[2, 4]],
+    "rotate": true,
+    "portal": true,
+    "desc": "the fake poor toll",
+    "tags": ["portal", "rift"]
+  },
+  {
+    "name": "txt_rif",
+    "sprite": ["txt/rif"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["portal", "rift"]
+  },
+  {
+    "name": "lie",
+    "sprite": ["caek"],
+    "layer": 6,
+    "color": [[4, 1]],
+    "desc": "caek be lie",
+    "tags": ["portal", "cake", "food"]
+  },
+  {
+    "name": "txt_lie",
+    "sprite": ["txt/caek"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "desc": "LIE: If LIE BE SPLIT, LIE becomes LIE/8 on all open adjacent tiles.",
+    "tags": ["portal", "cake", "food"]
+  },
+  {
+    "name": "lie/8",
+    "sprite": ["slis"],
+    "layer": 6,
+    "color": [[4, 2]],
+    "rotate": true,
+    "desc": "idc if it's a lie, it tastes good",
+    "tags": ["portal", "cake", "food", "slice"]
+  },
+  {
+    "name": "txt_lie/8",
+    "sprite": ["txt/slis"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "desc": "LIE/8: If LIE/8 BE MOAR, LIE/8 becomes LIE.",
+    "tags": ["portal", "cake", "food", "slice"]
+  },
+  {
+    "name": "sine",
+    "sprite": ["sine"],
+    "layer": 4,
+    "color": [[6, 2]],
+    "desc": "the sine says \"shoutouts to simpleflips\"",
+    "tags": ["sign"]
+  },
+  {
+    "name": "txt_sine",
+    "sprite": ["txt/sine"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["sign"]
+  },
+  {
+    "name": "buble",
+    "sprite": ["buble"],
+    "layer": 5,
+    "color": [[1, 3]],
+    "voice": "kkb2",
+    "desc": "bibble bobubble bub bab. blup",
+    "tags": ["bubble"]
+  },
+  {
+    "name": "txt_buble",
+    "sprite": ["txt/buble"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["bubble"]
+  },
+  {
+    "name": "icecub",
+    "sprite": ["icecub"],
+    "layer": 6,
+    "color": [[1, 4]],
+    "desc": "icecub ben't melltt. classic baba reference",
+    "tags": ["icecube"]
+  },
+  {
+    "name": "txt_icecub",
+    "sprite": ["txt/icecub"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "tags": ["icecube"]
+  },
+  {
+    "name": "paint",
+    "sprite": ["ui/splat"],
+    "layer": 8,
+    "color": [[0, 3]],
+    "desc": "Creating a PAINT will always be a samecolor paint.",
+    "tags": ["colors", "colours"]
+  },
+  {
+    "name": "ger",
+    "sprite": ["ger"],
+    "layer": 7,
+    "color": [[6, 1]],
+    "rotate": true,
+    "desc": "it spins! spin spin spin weeee",
+    "tags": ["gear", "time", "cog"]
+  },
+  {
+    "name": "txt_ger",
+    "sprite": ["txt/ger"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["gear", "time", "cog"]
+  },
+  {
+    "name": "can",
+    "sprite": ["can"],
+    "layer": 8,
+    "color": [[2, 1]],
+    "rotate": true,
+    "desc": "crack fordor a colld one",
+    "tags": ["valhalla"]
+  },
+  {
+    "name": "txt_can",
+    "sprite": ["txt/can"],
+    "types": ["object"],
+    "color": [[2, 1]],
+    "tags": ["valhalla"]
+  },
+  {
+    "name": "toggl",
+    "sprite": ["toggl"],
+    "layer": 4,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "flip flop",
+    "tags": ["toggle", "lightswitch"]
+  },
+  {
+    "name": "txt_toggl",
+    "sprite": ["txt/toggl"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["toggle", "lightswitch"]
+  },
+  {
+    "name": "bom",
+    "sprite": ["bom"],
+    "layer": 6,
+    "color": [[0, 1]],
+    "desc": "it go boom",
+    "tags": ["bomb", "boom"]
+  },
+  {
+    "name": "txt_bom",
+    "sprite": ["txt/bom"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["bomb", "boom"]
+  },
+  {
+    "name": "xplod",
+    "sprite": ["sparkl"],
+    "layer": 22,
+    "color": [[2, 2]]
+  },
+  {
+    "name": "square",
+    "sprite": ["square"],
+    "layer": 11,
+    "color": [[2, 4]],
+    "features": {
+      "sans": {"x": 19, "y": 7, "w": 2, "h": 2}
+    },
+    "voice": "pipipi",
+    "desc": "oh no am square????",
+    "tags": ["chars", "oatmealine", "puyopuyo tetris"]
+  },
+  {
+    "name": "triangle",
+    "sprite": ["triangle"],
+    "layer": 11,
+    "color": [[2, 4]],
+    "features": {
+      "sans": {"x": 17, "y": 7, "w": 2, "h": 2}
+    },
+    "voice": "pipipi",
+    "desc": "TRIASNGLE?????? this is ridicouuolus",
+    "tags": ["chars", "oatmealine", "puyopuyo tetris"]
+  },
+  {
+    "name": "txt_square",
+    "sprite": ["txt/square"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "features": {
+      "sans": {"x": 19, "y": 7, "w": 2, "h": 2}
+    },
+    "tags": ["chars", "oatmealine", "puyopuyo tetris"]
+  },
+  {
+    "name": "txt_triangle",
+    "sprite": ["txt/triangle"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "features": {
+      "sans": {"x": 19, "y": 7, "w": 2, "h": 2}
+    },
+    "tags": ["chars", "oatmealine", "puyopuyo tetris"]
+  },
+  {
+    "name": "snoflak",
+    "sprite": ["snoflak"],
+    "layer": 4,
+    "color": [[0, 3]],
+    "desc": "no 2 r the same...\nor is it?",
+    "tags": ["snowflake", "ice", "hail", "christmas"]
+  },
+  {
+    "name": "txt_snoflak",
+    "sprite": ["txt/snoflak"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["snowflake", "ice", "hail", "christmas"]
+  },
+  {
+    "name": "fir",
+    "sprite": ["fir"],
+    "layer": 7,
+    "color": [[2, 2]],
+    "desc": "CAUTION HOTTE!!!",
+    "tags": ["hot", "fire", "flame"]
+  },
+  {
+    "name": "txt_fir",
+    "sprite": ["txt/fir"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["hot", "fire", "flame"]
+  },
+  {
+    "name": "sanglas",
+    "sprite": ["sanglas"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "rotate": true,
+    "desc": "tim got broken",
+    "tags": ["time", "hourglass"]
+  },
+  {
+    "name": "txt_sanglas",
+    "sprite": ["txt/sanglas"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["time", "hourglass"]
+  },
+  {
+    "name": "ladr",
+    "sprite": ["ladr"],
+    "layer": 4,
+    "color": [[6, 0]],
+    "rotate": true,
+    "desc": "jumpman be u",
+    "tags": ["ladder", "stairs", "climb"]
+  },
+  {
+    "name": "txt_ladr",
+    "sprite": ["txt/ladr"],
+    "types": ["object"],
+    "color": [[6, 0]],
+    "tags": ["ladder", "stairs", "climb"]
+  },
+  {
+    "name": "cobll",
+    "sprite": ["cobll"],
+    "layer": 2,
+    "color": [[0, 1]],
+    "voice": "s_bdrum",
+    "desc": "so we back in the mine",
+    "tags": ["cobblestone"]
+  },
+  {
+    "name": "txt_cobll",
+    "sprite": ["txt/cobll"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["cobblestone"]
+  },
+  {
+    "name": "wuud",
+    "sprite": ["wuud"],
+    "layer": 2,
+    "color": [[6, 2]],
+    "voice": "s_spian",
+    "desc": "wuud u cuud u",
+    "tags": ["wood", "planks"]
+  },
+  {
+    "name": "txt_wuud",
+    "sprite": ["txt/wuud"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["wood", "planks"]
+  },
+  {
+    "name": "wut",
+    "sprite": ["wut"],
+    "layer": 11,
+    "color": [[0, 3]],
+    "desc": "im confuse",
+    "tags": ["what"]
+  },
+  {
+    "name": "txt_wut",
+    "sprite": ["txt/wut"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["what"]
+  },
+  {
+    "name": "wat",
+    "sprite": ["wat"],
+    "layer": 11,
+    "color": [[0, 3]],
+    "desc": "whoops error",
+    "tags": ["what", "error"]
+  },
+  {
+    "name": "txt_wat",
+    "sprite": ["txt/wat"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["what", "error"]
+  },
+  {
+    "name": "brik",
+    "sprite": ["brik"],
+    "layer": 2,
+    "color": [[2, 1]],
+    "desc": "just another brik in the wal",
+    "tags": ["bricks", "wall"]
+  },
+  {
+    "name": "txt_brik",
+    "sprite": ["txt/brik"],
+    "types": ["object"],
+    "color": [[2, 1]],
+    "desc": "reverse kirb",
+    "tags": ["bricks", "wall"]
+  },
+  {
+    "name": "litbolt",
+    "sprite": ["litbolt"],
+    "layer": 8,
+    "color": [[2, 4]],
+    "rotate": true,
+    "desc": "made with lightning. REAL LIGHTNING."
+  },
+  {
+    "name": "txt_litbolt",
+    "sprite": ["txt/litbolt"],
+    "types": ["object"],
+    "color": [[2, 4]]
+  },
+  {
+    "name": "rouz",
+    "sprite": ["rouz"],
+    "layer": 4,
+    "color": [[4, 1]],
+    "features": {
+      "sans": {"x": 8, "y": 6, "w": 3, "h": 3}
+    },
+    "desc": "every rouz got poke, ow",
+    "tags": ["rose", "flower", "plants"]
+  },
+  {
+    "name": "txt_rouz",
+    "sprite": ["txt/rouz"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "tags": ["rose", "flower", "plants"]
+  },
+  {
+    "name": "san",
+    "sprite": ["san"],
+    "layer": 2,
+    "color": [[2, 4]],
+    "voice": "s_sdrum",
+    "desc": "san undertales",
+    "tags": ["sand", "beach", "desert"]
+  },
+  {
+    "name": "txt_san",
+    "sprite": ["txt/san"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["sand", "beach", "desert"]
+  },
+  {
+    "name": "fungye",
+    "sprite": ["fungye"],
+    "layer": 4,
+    "color": [[6, 2]],
+    "desc": "super fungye",
+    "tags": ["fungus", "fungi", "mushroom"]
+  },
+  {
+    "name": "txt_fungye",
+    "sprite": ["txt/fungye"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "desc": "not a very fun guy",
+    "tags": ["fungus", "fungi", "mushroom"]
+  },
+  {
+    "name": "kar",
+    "sprite": ["kar"],
+    "layer": 10,
+    "color": [[5, 2]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 20, "y": 11, "w": 2, "h": 4}
+    },
+    "desc": "awaken my masters",
+    "tags": ["car", "vehicle"]
+  },
+  {
+    "name": "txt_kar",
+    "sprite": ["txt/kar"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["car", "vehicle"]
+  },
+  {
+    "name": "tor",
+    "sprite": ["tor"],
+    "layer": 22,
+    "color": [[2, 1]],
+    "portal": true,
+    "desc": "the east poor toll",
+    "tags": ["portal", "japan", "torii", "asia"]
+  },
+  {
+    "name": "txt_tor",
+    "sprite": ["txt/tor"],
+    "types": ["object"],
+    "color": [[2, 1]],
+    "tags": ["portal", "japan", "torii", "asia"]
+  },
+  {
+    "name": "son",
+    "sprite": ["son"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "desc": "the son be a :( lazor",
+    "tags": ["hot", "sunny", "day"]
+  },
+  {
+    "name": "txt_son",
+    "sprite": ["txt/son"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["hot", "sunny", "day"]
+  },
+  {
+    "name": "muun",
+    "sprite": ["muun"],
+    "layer": 6,
+    "color": [[1, 2]],
+    "desc": "unaffiliated with munwalk",
+    "tags": ["moon", "night", "mun", "crescent"]
+  },
+  {
+    "name": "txt_muun",
+    "sprite": ["txt/muun"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "tags": ["moon", "night", "mun", "crescent"]
+  },
+  {
+    "name": "leef",
+    "sprite": ["leef"],
+    "layer": 7,
+    "color": [[5, 2]],
+    "rotate": true,
+    "desc": "leef meem alone",
+    "tags": ["leaf", "weed lmao", "plants"]
+  },
+  {
+    "name": "txt_leef",
+    "sprite": ["txt/leef"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "desc": "its the 420th object lmao",
+    "tags": ["leaf", "weed lmao", "plants"]
+  },
+  {
+    "name": "starr",
+    "sprite": ["starr"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "desc": "starr starr nite",
+    "tags": ["star", "night"]
+  },
+  {
+    "name": "txt_starr",
+    "sprite": ["txt/starr"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["star", "night"]
+  },
+  {
+    "name": "shel",
+    "sprite": ["shel"],
+    "layer": 7,
+    "color": [[4, 2]],
+    "desc": "gas gas gas",
+    "tags": ["shell", "scallop", "beach"]
+  },
+  {
+    "name": "txt_shel",
+    "sprite": ["txt/shel"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "tags": ["shell", "scallop", "beach"]
+  },
+  {
+    "name": "sancastl",
+    "sprite": ["sancastl"],
+    "layer": 7,
+    "color": [[2, 4]],
+    "desc": "lets creat a sancastl",
+    "tags": ["sandcastle", "beach"]
+  },
+  {
+    "name": "txt_sancastl",
+    "sprite": ["txt/sancastl"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["sandcastle", "beach"]
+  },
+  {
+    "name": "parsol",
+    "sprite": ["parsol"],
+    "layer": 9,
+    "color": [[2, 2]],
+    "rotate": true,
+    "desc": "protecc from son thatbe :(",
+    "tags": ["parasol", "umbrella", "beach"]
+  },
+  {
+    "name": "txt_parsol",
+    "sprite": ["txt/parsol"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["parasol", "umbrella", "beach"]
+  },
+  {
+    "name": "pallm",
+    "sprite": ["pallm"],
+    "layer": 4,
+    "color": [[5, 2]],
+    "voice": "s_steel",
+    "desc": "visit the tropical bab beach, it's a fun time for the bab family!!",
+    "tags": ["palm tree", "coconut tree", "beach", "plants"]
+  },
+  {
+    "name": "txt_pallm",
+    "sprite": ["txt/pallm"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["palm tree", "coconut tree", "beach", "plants"]
+  },
+  {
+    "name": "coco",
+    "sprite": ["coco"],
+    "layer": 7,
+    "color": [[6, 1]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 20, "y": 12, "w": 2, "h": 3}
+    },
+    "voice": "s_steel",
+    "desc": "its a bigg bigg nutt",
+    "tags": ["fruit", "coconut", "plants"]
+  },
+  {
+    "name": "txt_coco",
+    "sprite": ["txt/coco"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["fruit", "coconut", "plants"]
+  },
+  {
+    "name": "glas",
+    "sprite": ["glas"],
+    "layer": 22,
+    "color": [[0, 3]],
+    "voice": "s_organ",
+    "desc": "a tranzlucent block?!",
+    "tags": ["glass"]
+  },
+  {
+    "name": "txt_glas",
+    "sprite": ["txt/glas"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["glass"]
+  },
+  {
+    "name": "vien",
+    "sprite": ["vien"],
+    "layer": 4,
+    "color": [[5, 1]],
+    "rotate": true,
+    "desc": "vinny viensauce",
+    "tags": ["vines", "plants", "climb"]
+  },
+  {
+    "name": "txt_vien",
+    "sprite": ["txt/vien"],
+    "types": ["object"],
+    "color": [[5, 1]],
+    "desc": "so she uploads a VIEN",
+    "tags": ["vines", "plants", "climb"]
+  },
+  {
+    "name": "pudll",
+    "sprite": ["pudll"],
+    "layer": 4,
+    "color": [[1, 3]],
+    "desc": "its just a single watr",
+    "tags": ["water", "puddle"]
+  },
+  {
+    "name": "txt_pudll",
+    "sprite": ["txt/pudll"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["water", "puddle"]
+  },
+  {
+    "name": "red",
+    "sprite": ["red"],
+    "layer": 4,
+    "color": [[6, 2]],
+    "desc": "it's not orange, that's just a trick",
+    "tags": ["reeds", "plants", "cattail", "swamp"]
+  },
+  {
+    "name": "txt_red",
+    "sprite": ["txt/red"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "desc": "wait what",
+    "tags": ["reeds", "plants", "cattail", "swamp"]
+  },
+  {
+    "name": "stum",
+    "sprite": ["stum"],
+    "layer": 4,
+    "color": [[6, 1]],
+    "desc": "im stumped",
+    "tags": ["plants", "tree stump"]
+  },
+  {
+    "name": "txt_stum",
+    "sprite": ["txt/stum"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["plants", "tree stump"]
+  },
+  {
+    "name": "bullb",
+    "sprite": ["bullb"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "desc": "lit bullb meow",
+    "tags": ["lightbulb", "power"]
+  },
+  {
+    "name": "txt_bullb",
+    "sprite": ["txt/bullb"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "desc": "go play lightbulbmeow's baba pack it's super good",
+    "tags": ["lightbulb", "power"]
+  },
+  {
+    "name": "battry",
+    "sprite": ["battry"],
+    "layer": 4,
+    "color": [[4, 1]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 23, "y": 14, "w": 2, "h": 4}
+    },
+    "desc": "not responsible for hidden states",
+    "tags": ["battery", "power"]
+  },
+  {
+    "name": "txt_battry",
+    "sprite": ["txt/battry"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "tags": ["battery", "power"]
+  },
+  {
+    "name": "smol",
+    "sprite": ["smol"],
+    "layer": 22,
+    "color": [[5, 2]],
+    "rotate": true,
+    "portal": true,
+    "desc": "the tini poor toll",
+    "tags": ["portal"]
+  },
+  {
+    "name": "txt_smol",
+    "sprite": ["txt/smol"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["portal"]
+  },
+  {
+    "name": "win",
+    "sprite": ["win"],
+    "layer": 22,
+    "color": [[1, 4]],
+    "rotate": true,
+    "portal": true,
+    "desc": "the skware poor toll",
+    "tags": ["portal", "window", "doorway"]
+  },
+  {
+    "name": "txt_win",
+    "sprite": ["txt/win"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "desc": "not to be confused with :)",
+    "tags": ["portal", "window", "doorway"]
+  },
+  {
+    "name": "bon",
+    "sprite": ["bon"],
+    "layer": 4,
+    "color": [[0, 3]],
+    "rotate": true,
+    "voice": "overdriven guitar",
+    "desc": "bonles pizza",
+    "tags": ["bone"]
+  },
+  {
+    "name": "txt_bon",
+    "sprite": ["txt/bon"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["bone"]
+  },
+  {
+    "name": "rockit",
+    "sprite": ["rockit"],
+    "layer": 10,
+    "color": [[1, 3]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 18, "y": 13, "w": 3, "h": 4}
+    },
+    "desc": "goes to spce",
+    "tags": ["rocket", "spaceship"]
+  },
+  {
+    "name": "txt_rockit",
+    "sprite": ["txt/rockit"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["rocket", "spaceship"]
+  },
+  {
+    "name": "ufu",
+    "sprite": ["ufu"],
+    "layer": 10,
+    "color": [[3, 3]],
+    "features": {
+      "sans": {"x": 15, "y": 10, "w": 4, "h": 5}
+    },
+    "desc": "comes from spce",
+    "tags": ["ufo", "spaceship"]
+  },
+  {
+    "name": "txt_ufu",
+    "sprite": ["txt/ufu"],
+    "types": ["object"],
+    "color": [[3, 3]],
+    "tags": ["ufo", "spaceship"]
+  },
+  {
+    "name": "rein",
+    "sprite": ["rein"],
+    "layer": 5,
+    "color": [[1, 3]],
+    "desc": "it pours",
+    "tags": ["rain"]
+  },
+  {
+    "name": "txt_rein",
+    "sprite": ["txt/rein"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["rain"]
+  },
+  {
+    "name": "algay",
+    "sprite": ["algay"],
+    "layer": 3,
+    "color": [[5, 1]],
+    "tags": ["algae", "plants"]
+  },
+  {
+    "name": "txt_algay",
+    "sprite": ["txt/algay"],
+    "types": ["object"],
+    "color": [[5, 1]],
+    "desc": "very gay",
+    "tags": ["algae", "plants"]
+  },
+  {
+    "name": "noet",
+    "sprite": ["noet"],
+    "layer": 9,
+    "color": [[4, 1]],
+    "desc": "muzique to my ears",
+    "tags": ["music note", "quarter note"]
+  },
+  {
+    "name": "txt_noet",
+    "sprite": ["txt/noet"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "tags": ["music note", "quarter note"]
+  },
+  {
+    "name": "banboo",
+    "sprite": ["banboo"],
+    "layer": 4,
+    "color": [[5, 1]],
+    "desc": "thin tre, tall tre, crunchy tre",
+    "tags": ["bamboo", "plants"]
+  },
+  {
+    "name": "txt_banboo",
+    "sprite": ["txt/banboo"],
+    "types": ["object"],
+    "color": [[5, 1]],
+    "tags": ["bamboo", "plants"]
+  },
+  {
+    "name": "karot",
+    "sprite": ["karot"],
+    "layer": 8,
+    "color": [[2, 3]],
+    "rotate": true,
+    "desc": "bunmy lüv this",
+    "tags": ["carrot", "plants", "fruit", "food", "vegetable"]
+  },
+  {
+    "name": "txt_karot",
+    "sprite": ["txt/karot"],
+    "types": ["object"],
+    "color": [[2, 3]],
+    "desc": "is it a frut? is it a vege? i dont karot all!!!",
+    "tags": ["carrot", "plants", "fruit", "food", "vegetable"]
+  },
+  {
+    "name": "poisbolt",
+    "sprite": ["poisbolt"],
+    "layer": 8,
+    "color": [[5, 3]],
+    "rotate": true,
+    "desc": "how kids learn the triangular number series",
+    "tags": ["poison"]
+  },
+  {
+    "name": "txt_poisbolt",
+    "sprite": ["txt/poisbolt"],
+    "types": ["object"],
+    "color": [[5, 3]],
+    "tags": ["poison"]
+  },
+  {
+    "name": "knif",
+    "sprite": ["knif"],
+    "layer": 8,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "doesn't like hurting people",
+    "tags": ["weapon", "edgy"]
+  },
+  {
+    "name": "txt_knif",
+    "sprite": ["txt/knif"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "KNIF: Any object with GOT KNIF will wield a KNIF.",
+    "tags": ["weapon", "kitchen knife"]
+  },
+  {
+    "name": "timbolt",
+    "sprite": ["timbolt"],
+    "layer": 8,
+    "color": [[3, 3]],
+    "rotate": true,
+    "desc": "tim heals all wounds... unless its a bolt"
+  },
+  {
+    "name": "txt_timbolt",
+    "sprite": ["txt/timbolt"],
+    "types": ["object"],
+    "color": [[3, 3]]
+  },
+  {
+    "name": "cor",
+    "sprite": ["cor"],
+    "layer": 4,
+    "color": [[4, 0]],
+    "desc": "they look very pretty irl",
+    "tags": ["coral", "beach"]
+  },
+  {
+    "name": "txt_cor",
+    "sprite": ["txt/cor"],
+    "types": ["object"],
+    "color": [[4, 0]],
+    "desc": "ROC backwards",
+    "tags": ["coral", "beach"]
+  },
+  {
+    "name": "sirn",
+    "sprite": ["sirn"],
+    "layer": 6,
+    "color": [[2, 2]],
+    "rotate": true,
+    "desc": "will steal ur tim machine,",
+    "tags": ["siren", "alarm"]
+  },
+  {
+    "name": "txt_sirn",
+    "sprite": ["txt/sirn"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["siren", "alarm"]
+  },
+  {
+    "name": "wips",
+    "sprite": ["wips"],
+    "layer": 9,
+    "color": [[0, 3]],
+    "desc": "WILL o WIPS?",
+    "tags": ["will o wisp", "japan", "ghost", "spirit"]
+  },
+  {
+    "name": "txt_wips",
+    "sprite": ["txt/wips"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "work in progress",
+    "tags": ["will o wisp", "japan", "ghost", "spirit"]
+  },
+  {
+    "name": "eeg",
+    "sprite": ["eeg"],
+    "layer": 8,
+    "color": [[6, 2]],
+    "rotate": true,
+    "desc": "no one knows what's inside. it's impenetrable",
+    "tags": ["egg", "food"]
+  },
+  {
+    "name": "txt_eeg",
+    "sprite": ["txt/eeg"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["egg", "food"]
+  },
+  {
+    "name": "foreeg",
+    "sprite": ["foreeg"],
+    "layer": 4,
+    "color": [[6, 1]],
+    "rotate": true,
+    "desc": "no one knows what's inside. the eeg proteccs it",
+    "tags": ["nest"]
+  },
+  {
+    "name": "txt_foreeg",
+    "sprite": ["txt/foreeg"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["nest"]
+  },
+  {
+    "name": "extre",
+    "sprite": ["extre"],
+    "layer": 4,
+    "color": [[6, 1]],
+    "rotate": true,
+    "desc": "a ded tre. rip",
+    "tags": ["tree", "plants", "husk"]
+  },
+  {
+    "name": "txt_extre",
+    "sprite": ["txt/extre"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["tree", "plants", "husk"]
+  },
+  {
+    "name": "heg",
+    "sprite": ["heg"],
+    "layer": 4,
+    "color": [[5, 2]],
+    "desc": "ouch",
+    "tags": ["plant", "cactus"]
+  },
+  {
+    "name": "txt_heg",
+    "sprite": ["txt/heg"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["plant", "cactus"]
+  },
+  {
+    "name": "byc",
+    "sprite": ["byc", "byc_editor"],
+    "layer": 8,
+    "color": [[0, 3], [2, 2], [2, 2]],
+    "painted": [[0, 0], true, true],
+    "rotate": true,
+    "desc": "haha get it, it's because bicycle is a specific brand of playing card",
+    "tags": ["playing card", "bicycle", "ace", "card"]
+  },
+  {
+    "name": "txt_byc",
+    "sprite": ["txt/byc"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "desc": "BYC: has a random image every time it's loaded!",
+    "tags": ["playing card", "bicycle", "ace", "card"]
+  },
+  {
+    "name": "bac",
+    "sprite": ["byc", "bac"],
+    "layer": 8,
+    "color": [[0, 3], [2, 2]],
+    "painted": [[0, 0], true],
+    "rotate": true,
+    "desc": "cards have 2 sides",
+    "tags": ["playing card back", "bicycle", "card"]
+  },
+  {
+    "name": "txt_bac",
+    "sprite": ["txt/bac"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["playing card back", "bicycle", "card"]
+  },
+  {
+    "name": "golf",
+    "sprite": ["golf"],
+    "layer": 6,
+    "color": [[1, 2]],
+    "desc": "i want 0!!!",
+    "tags": ["flag", "unwin"]
+  },
+  {
+    "name": "txt_golf",
+    "sprite": ["txt/golf"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "desc": "you see, in golf, a LOWER score is better",
+    "tags": ["flag", "unwin"]
+  },
+  {
+    "name": "sloop",
+    "sprite": ["sloop"],
+    "layer": 3,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "really cool that bab be u 2 introduced slopes, GOTY",
+    "tags": ["triangle", "half", "slope"]
+  },
+  {
+    "name": "txt_sloop",
+    "sprite": ["txt/sloop"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "ideal for art",
+    "tags": ["triangle", "half", "slope"]
+  },
+  {
+    "name": "chain",
+    "sprite": ["chain"],
+    "layer": 22,
+    "color": [[0, 2]],
+    "rotate": true,
+    "desc": "EVERY1 W/FREN CHAIN STALK JAIL. now bab's going to jail :("
+  },
+  {
+    "name": "txt_chain",
+    "sprite": ["txt/chain"],
+    "types": ["object"],
+    "color": [[0, 2]]
+  },
+  {
+    "name": "lili",
+    "sprite": ["lili"],
+    "layer": 4,
+    "color": [[5, 1]],
+    "rotate": true,
+    "desc": "water type evolution of platfor",
+    "tags": ["lilypad", "plants"]
+  },
+  {
+    "name": "txt_lili",
+    "sprite": ["txt/lili"],
+    "types": ["object"],
+    "color": [[5, 1]],
+    "desc": "not to be confused with LILA",
+    "tags": ["lilypad", "plants"]
+  },
+  {
+    "name": "swim",
+    "sprite": ["swim"],
+    "layer": 8,
+    "color": [[6, 1]],
+    "desc": "no no swim n't n't",
+    "tags": ["boat", "ship"]
+  },
+  {
+    "name": "txt_swim",
+    "sprite": ["txt/swim"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["boat", "ship"]
+  },
+  {
+    "name": "gorder",
+    "sprite": ["gorder"],
+    "layer": 3,
+    "color": [[0, 2]],
+    "rotate": true,
+    "desc": "constructon zone!",
+    "tags": ["girder", "city"]
+  },
+  {
+    "name": "txt_gorder",
+    "sprite": ["txt/gorder"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["girder", "city"]
+  },
+  {
+    "name": "piep",
+    "sprite": ["piep"],
+    "layer": 3,
+    "color": [[5, 2]],
+    "rotate": true,
+    "portal": true,
+    "desc": "enter the piep to skip world",
+    "tags": ["pipe", "tube", "mario"]
+  },
+  {
+    "name": "txt_piep",
+    "sprite": ["txt/piep"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["pipe", "tube", "mario"]
+  },
+  {
+    "name": "tuba",
+    "sprite": ["tuba"],
+    "layer": 3,
+    "color": [[5, 2]],
+    "rotate": true,
+    "desc": "piep's bff",
+    "tags": ["pipe", "tube", "mario"]
+  },
+  {
+    "name": "txt_tuba",
+    "sprite": ["txt/tuba"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "desc": "pieps are musical instruments",
+    "tags": ["pipe", "tube", "mario"]
+  },
+  {
+    "name": "forbeeee",
+    "sprite": ["forbeeee"],
+    "layer": 4,
+    "color": [[6, 2]],
+    "desc": "trans rights",
+    "tags": ["beehive", "beecomb", "honeycomb"]
+  },
+  {
+    "name": "txt_forbeeee",
+    "sprite": ["txt/forbeeee"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["beehive", "beecomb", "honeycomb"]
+  },
+  {
+    "name": "do$h",
+    "sprite": ["do$h"],
+    "layer": 6,
+    "color": [[5, 2]],
+    "desc": "DO$H DO$H DO$H!",
+    "tags": ["dosh", "cash money", "money"]
+  },
+  {
+    "name": "txt_do$h",
+    "sprite": ["txt/do$h"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "desc": "dollas",
+    "tags": ["dosh", "cash money", "money"]
+  },
+  {
+    "name": "dling",
+    "sprite": ["dling"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "rotate": true,
+    "desc": "dling dling dling!",
+    "tags": ["coin", "mario"]
+  },
+  {
+    "name": "txt_dling",
+    "sprite": ["txt/dling"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "desc": "the sound a coin makes",
+    "tags": ["coin", "mario"]
+  },
+  {
+    "name": "warn",
+    "sprite": ["warn", "no1"],
+    "layer": 3,
+    "color": [[2, 4], [0, 0]],
+    "painted": [true, false],
+    "desc": "cauntion",
+    "tags": ["warning", "stripes"]
+  },
+  {
+    "name": "txt_warn",
+    "sprite": ["txt/warn"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["warning", "stripes"]
+  },
+  {
+    "name": "reffil",
+    "sprite": ["reffil"],
+    "layer": 6,
+    "color": [[5, 3]],
+    "desc": "gives u dash bacc",
+    "tags": ["refill", "celeste"]
+  },
+  {
+    "name": "txt_reffil",
+    "sprite": ["txt/reffil"],
+    "types": ["object"],
+    "color": [[5, 3]],
+    "tags": ["refill", "celeste"]
+  },
+  {
+    "name": "yanying",
+    "sprite": ["yan", "ying"],
+    "layer": 6,
+    "color": [[0, 3], [2, 2]],
+    "painted": [false, true],
+    "desc": "good vs bad, they balanced",
+    "tags": ["yin yang orb", "taoism"]
+  },
+  {
+    "name": "txt_yanying",
+    "sprite": ["txt/yanying"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["yin yang orb", "taoism"]
+  },
+  {
+    "name": "vlc",
+    "sprite": ["vlc"],
+    "layer": 6,
+    "color": [[2, 3]],
+    "desc": "VLC media player is a free and open-source portable cross-platform media player software and streaming media server developed by the VideoLAN project. VLC is available for desktop operating systems and mobile platforms, such as Android, iOS, iPadOS, Tizen, Windows 10 Mobile and Windows Phone.",
+    "tags": ["traffic cone"]
+  },
+  {
+    "name": "txt_vlc",
+    "sprite": ["txt/vlc"],
+    "types": ["object"],
+    "color": [[2, 3]],
+    "tags": ["traffic cone"]
+  },
+  {
+    "name": "foru",
+    "sprite": ["foru"],
+    "layer": 4,
+    "color": [[0, 1]],
+    "desc": "tresh",
+    "tags": ["trash can", "rubbish bin", "garbage", "delete", "city"]
+  },
+  {
+    "name": "txt_foru",
+    "sprite": ["txt/foru"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "desc": "ha ! goteeM",
+    "tags": ["trash can", "rubbish bin", "garbage", "delete", "city"]
+  },
+  {
+    "name": "rod",
+    "sprite": ["rod"],
+    "layer": 3,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "forkar",
+    "tags": ["city", "street", "road"]
+  },
+  {
+    "name": "txt_rod",
+    "sprite": ["txt/rod"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["city", "street", "road"]
+  },
+  {
+    "name": "ofin",
+    "display": "of in",
+    "sprite": ["ofin"],
+    "layer": 7,
+    "color": [[2, 3]],
+    "desc": "why do they call it oven when you of in the cold food of out hot eat the food",
+    "tags": ["oven", "microwave", "future gadget", "of out"]
+  },
+  {
+    "name": "txt_ofin",
+    "display": "of in",
+    "sprite": ["txt/ofin"],
+    "types": ["object"],
+    "color": [[2, 3]],
+    "desc": "of out",
+    "tags": ["oven", "microwave", "future gadget", "of out"]
+  },
+  {
+    "name": "casete",
+    "sprite": ["casete"],
+    "layer": 2,
+    "color": [[0, 2]],
+    "desc": "chiptune bloc",
+    "tags": ["cassette", "bside", "b-side", "celeste"]
+  },
+  {
+    "name": "txt_casete",
+    "sprite": ["txt/casete"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "desc": "The sprite changes if you change its color. Try it out!",
+    "tags": ["cassette", "bside", "b-side", "celeste"]
+  },
+  {
+    "name": "weeb",
+    "sprite": ["weeb"],
+    "layer": 4,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "very glued",
+    "tags": ["spiderweb", "cobweb", "for spoder"]
+  },
+  {
+    "name": "txt_weeb",
+    "sprite": ["txt/weeb"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "weebs dont interact",
+    "tags": ["spiderweb", "cobweb", "for spoder"]
+  },
+  {
+    "name": "ches",
+    "sprite": ["chest_close"],
+    "layer": 7,
+    "color": [[2, 2]],
+    "desc": "closes when NED KEE",
+    "tags": ["chest", "treasure chest", "mimic"]
+  },
+  {
+    "name": "txt_ches",
+    "sprite": ["txt/ches"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["chest", "treasure chest", "mimic"]
+  },
+  {
+    "name": "3den",
+    "sprite": ["3den"],
+    "layer": 8,
+    "color": [[1, 2]],
+    "rotate": true,
+    "desc": "dont throw it away",
+    "tags": ["trident"]
+  },
+  {
+    "name": "txt_3den",
+    "sprite": ["txt/3den"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "tags": ["trident"]
+  },
+  {
+    "name": "pen",
+    "sprite": ["pen"],
+    "layer": 7,
+    "color": [[2, 4]],
+    "rotate": true,
+    "desc": "the creating one",
+    "tags": ["pencil"]
+  },
+  {
+    "name": "txt_pen",
+    "sprite": ["txt/pen"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["pencil"]
+  },
+  {
+    "name": "cil",
+    "sprite": ["cil"],
+    "layer": 7,
+    "color": [[2, 4]],
+    "rotate": true,
+    "desc": "the deleting one",
+    "tags": ["pencil", "eraser"]
+  },
+  {
+    "name": "txt_cil",
+    "sprite": ["txt/cil"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["pencil", "eraser"]
+  },
+  {
+    "name": "grav",
+    "sprite": ["grav"],
+    "layer": 4,
+    "color": [[0, 1]],
+    "desc": "what do you call a serious person with a shovel?\na grave digger\nhahahahaha",
+    "tags": ["gravestone", "tombstone", "spooky"]
+  },
+  {
+    "name": "txt_grav",
+    "sprite": ["txt/grav"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "desc": "not to be confused with the removed GRAVY",
+    "tags": ["gravestone", "tombstone", "spooky"]
+  },
+  {
+    "name": "pumkin",
+    "sprite": ["pumkin"],
+    "layer": 6,
+    "color": [[2, 3]],
+    "features": {
+      "sans": {"x": 21, "y": 15, "w": 5, "h": 3}
+    },
+    "desc": "turns spooky with the correct properties",
+    "tags": ["pumpkin", "plant", "spooky"]
+  },
+  {
+    "name": "txt_pumkin",
+    "sprite": ["txt/pumkin"],
+    "types": ["object"],
+    "color": [[2, 3]],
+    "tags": ["pumpkin", "plant", "spooky"]
+  },
+  {
+    "name": "bel",
+    "sprite": ["bel"],
+    "layer": 6,
+    "color": [[2, 4]],
+    "rotate": true,
+    "desc": "tis the season",
+    "tags": ["bell", "christmas"]
+  },
+  {
+    "name": "txt_bel",
+    "sprite": ["txt/bel"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["bell", "christmas"]
+  },
+  {
+    "name": "wres",
+    "sprite": ["wres"],
+    "layer": 4,
+    "color": [[5, 2]],
+    "desc": "tis the wreson",
+    "tags": ["wreathe", "plant", "christmas"]
+  },
+  {
+    "name": "txt_wres",
+    "sprite": ["txt/wres"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["wreathe", "plant", "christmas"]
+  },
+  {
+    "name": "bowie",
+    "sprite": ["bowie"],
+    "layer": 9,
+    "color": [[2, 2]],
+    "rotate": true,
+    "desc": "we could be heroes",
+    "tags": ["ribbon", "bow", "christmas"]
+  },
+  {
+    "name": "txt_bowie",
+    "sprite": ["txt/bowie"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "desc": "just for one day",
+    "tags": ["ribbon", "bow", "christmas"]
+  },
+  {
+    "name": "sant",
+    "sprite": ["sant_base", "sant_flof"],
+    "layer": 8,
+    "color": [[2, 2], [0, 3]],
+    "painted": [true, false],
+    "desc": "ho ho ho",
+    "tags": ["santa hat", "christmas"]
+  },
+  {
+    "name": "txt_sant",
+    "sprite": ["txt/sant"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["santa hat", "christmas"]
+  },
+  {
+    "name": "gato",
+    "sprite": ["gato"],
+    "layer": 3,
+    "color": [[0, 2]],
+    "rotate": true,
+    "desc": "el gato negro, michi michi",
+    "tags": ["oneway", "mario", "gate"]
+  },
+  {
+    "name": "txt_gato",
+    "sprite": ["txt/gato"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "desc": "shakes if you can't walk into it",
+    "tags": ["oneway", "mario", "gate"]
+  },
+  {
+    "name": "canedy",
+    "sprite": ["canedy_stripes", "canedy_base"],
+    "layer": 8,
+    "color": [[2, 2], [0, 3]],
+    "painted": [true, false],
+    "rotate": true,
+    "desc": "no pun in canedied",
+    "tags": ["candy cane", "christmas", "food", "sweets"]
+  },
+  {
+    "name": "txt_canedy",
+    "sprite": ["txt/canedy"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["candy cane", "christmas", "food", "sweets"]
+  },
+  {
+    "name": "now",
+    "sprite": ["now_box", "now_bow"],
+    "layer": 8,
+    "color": [[2, 2], [2, 4]],
+    "painted": [true, false],
+    "desc": "a gift for every bab supporteres!",
+    "tags": ["present", "gift", "box", "christmas"]
+  },
+  {
+    "name": "txt_now",
+    "sprite": ["txt/now"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "desc": "its now, or latr, no srsly",
+    "alias": ["latr"],
+    "tags": ["present", "gift", "box", "christmas"]
+  },
+  {
+    "name": "bolble",
+    "sprite": ["bolble"],
+    "layer": 8,
+    "color": [[2, 2]],
+    "rotate": true,
+    "desc": "wil chang patern w/ colr",
+    "tags": ["bauble", "ball", "christmas"]
+  },
+  {
+    "name": "txt_bolble",
+    "sprite": ["txt/bolble"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["bauble", "ball", "christmas"]
+  },
+  {
+    "name": "sno",
+    "sprite": ["sno"],
+    "layer": 2,
+    "color": [[0, 3]],
+    "desc": "snodin",
+    "tags": ["snow", "christmas"]
+  },
+  {
+    "name": "txt_sno",
+    "sprite": ["txt/sno"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "sno easy bein grun",
+    "tags": ["snow", "christmas"]
+  },
+  {
+    "name": "cooky",
+    "sprite": ["cooky"],
+    "layer": 8,
+    "color": [[6, 2]],
+    "desc": "clik clik clik",
+    "tags": ["cookie", "biscuit", "chocolate chip", "christmas", "food", "sweets"]
+  },
+  {
+    "name": "txt_cooky",
+    "sprite": ["txt/cooky"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "desc": "very cooky",
+    "tags": ["cookie", "biscuit", "chocolate chip", "christmas", "food", "sweets"]
+  },
+  {
+    "name": "pot",
+    "sprite": ["pot_drink", "pot_bottle"],
+    "layer": 7,
+    "color": [[3, 1], [0, 3]],
+    "painted": [true, false],
+    "rotate": true,
+    "desc": "+1 ATK",
+    "tags": ["potion", "bottle", "halloween"]
+  },
+  {
+    "name": "txt_pot",
+    "sprite": ["txt/pot"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["potion", "bottle", "halloween"]
+  },
+  {
+    "name": "sweep",
+    "sprite": ["sweep"],
+    "layer": 8,
+    "color": [[6, 1]],
+    "rotate": true,
+    "desc": "for the master sparkl users",
+    "tags": ["broomstick", "halloween", "witch"]
+  },
+  {
+    "name": "txt_sweep",
+    "sprite": ["txt/sweep"],
+    "types": ["object"],
+    "color": [[6, 1]],
+    "tags": ["broomstick", "halloween", "witch"]
+  },
+  {
+    "name": "which",
+    "sprite": ["which_that", "which_base"],
+    "layer": 8,
+    "color": [[3, 1], [0, 0]],
+    "painted": [true, false],
+    "desc": "mors tak the precious thing",
+    "tags": ["witch hat", "halloween"]
+  },
+  {
+    "name": "txt_which",
+    "sprite": ["txt/which"],
+    "types": ["object"],
+    "color": [[3, 1]],
+    "desc": "which one? THAT one!",
+    "tags": ["witch hat", "halloween"]
+  },
+  {
+    "name": "wan",
+    "sprite": ["wan_center", "wan_end"],
+    "layer": 8,
+    "color": [[0, 0], [0, 3]],
+    "painted": [true, false],
+    "rotate": true,
+    "desc": "wan and han gos han in han",
+    "tags": ["magician wand", "staff"]
+  },
+  {
+    "name": "txt_wan",
+    "sprite": ["txt/wan"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["magician wand", "staff"]
+  },
+  {
+    "name": "mug",
+    "sprite": ["mug"],
+    "layer": 8,
+    "color": [[0, 3]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 20, "y": 15, "w": 2, "h": 2}
+    },
+    "desc": "mugman",
+    "tags": ["cup", "mug", "magician"]
+  },
+  {
+    "name": "txt_mug",
+    "sprite": ["txt/mug"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["cup", "mug", "magician"]
+  },
+  {
+    "name": "corndy",
+    "sprite": ["corndy_top", "corndy_center", "corndy_bottom"],
+    "layer": 8,
+    "color": [[0, 3], [2, 2], [2, 4]],
+    "painted": [false, true, false],
+    "rotate": true,
+    "desc": "corndy and han gos han in han",
+    "tags": ["candy corn", "food", "sweets", "halloween"]
+  },
+  {
+    "name": "txt_corndy",
+    "sprite": ["txt/corndy"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["candy corn", "food", "sweets", "halloween"]
+  },
+  {
+    "name": "die",
+    "sprite": ["die_cube", "die_nil"],
+    "layer": 8,
+    "color": [[0, 3], [2, 2]],
+    "painted": [true, false],
+    "rotate": true,
+    "desc": "rerolls every turn unless its NO TURN",
+    "tags": ["dice", "cube", "random"]
+  },
+  {
+    "name": "txt_die",
+    "sprite": ["txt/die"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "ur turn to DIE",
+    "tags": ["dice", "cube", "random"]
+  },
+  {
+    "name": "tronk",
+    "sprite": ["tronk"],
+    "layer": 6,
+    "color": [[1, 4]],
+    "desc": "upside down boll",
+    "tags": ["trinket", "vvvvvv"]
+  },
+  {
+    "name": "txt_tronk",
+    "sprite": ["txt/tronk"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "tags": ["trinket", "vvvvvv"]
+  },
+  {
+    "name": "aaaaaa",
+    "sprite": ["aaaaaa"],
+    "layer": 22,
+    "color": [[0, 3]],
+    "desc": "Thingifying a custom letter AAAA (with 2-4) A's becomes a BATTRY instead."
+  },
+  {
+    "name": "therealbabdictator",
+    "display": "the one and only hatsune miku herself",
+    "sprite": ["therealbabdictator"],
+    "layer": 100,
+    "color": [[0, 3]],
+    "voice": "miku",
+    "desc": "todokete setsuna sa ni waaaaaaaa",
+    "tags": ["hatsune miku"],
+    "pronouns": ["she", "her", "miku"]
+  },
+  {
+    "name": "txt_therealbabdictator",
+    "display": "the one and only hatsune miku herself",
+    "sprite": ["txt/therealbabdictator"],
+    "layer": 99,
+    "types": ["object"],
+    "color": [[0, 3]],
+    "unsearchable": true,
+    "desc": "yes"
+  },
+  {
+    "name": "fube",
+    "sprite": ["fube_arrow", "fube_cube"],
+    "layer": 8,
+    "color": [[2, 2], [0, 3]],
+    "painted": [true, false],
+    "rotate": true,
+    "desc": "the cube thingy from many folds garden",
+    "tags": ["manifold garden", "arrow", "gravity"]
+  },
+  {
+    "name": "txt_fube",
+    "sprite": ["txt/fube"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "don't be fooled by the sprite it's just fube",
+    "tags": ["manifold garden", "arrow", "gravity"]
+  },
+  {
+    "name": "prop",
+    "sprite": ["prop"],
+    "types": ["property"],
+    "layer": 19,
+    "color": [[0, 3]],
+    "desc": "it's an empty property object",
+    "tags": ["property", "square", "box"]
+  },
+  {
+    "name": "txt_prop",
+    "sprite": ["txt/prop"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "it refers to the empty property object",
+    "tags": ["property", "square", "box"]
+  },
+  {
+    "name": "colect",
+    "sprite": ["colect"],
+    "layer": 22,
+    "color": [[0, 2]],
+    "desc": "to hold bugs"
+  },
+  {
+    "name": "txt_colect",
+    "sprite": ["txt/colect"],
+    "types": ["object"],
+    "color": [[0, 3]]
+  },
+  {
+    "name": "whee",
+    "sprite": ["whee"],
+    "layer": 8,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "the nostalgia console"
+  },
+  {
+    "name": "txt_whee",
+    "sprite": ["txt/whee"],
+    "types": ["object"],
+    "color": [[0, 3]]
+  },
+  {
+    "name": "joycon",
+    "sprite": ["joycon"],
+    "layer": 7,
+    "color": [[2, 2]],
+    "rotate": true,
+    "desc": "where's its partner? you gotta find it!"
+  },
+  {
+    "name": "txt_joycon",
+    "sprite": ["txt/joycon_l", "txt/joycon_r"],
+    "types": ["object"],
+    "color": [[1, 3], [2, 2]],
+    "painted": [true, false],
+    "desc": "multicolor text?!?!?"
+  },
+  {
+    "name": "cart",
+    "sprite": ["cart"],
+    "layer": 20,
+    "color": [[0, 2]],
+    "desc": "like casette but from an objectively better game",
+    "tags": ["cart"]
+  },
+  {
+    "name": "txt_cart",
+    "sprite": ["txt/cart"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["cart"]
+  },
+  {
+    "name": "drop",
+    "sprite": ["drop"],
+    "layer": 6,
+    "color": [[1, 3]],
+    "desc": "when they crai",
+    "tags": ["tear", "droplet", "water", "blood"]
+  },
+  {
+    "name": "txt_drop",
+    "sprite": ["txt/drop"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["tear", "droplet", "water", "blood"]
+  },
+  {
+    "name": "woosh",
+    "sprite": ["woosh"],
+    "layer": 6,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "dont make a shitty reddit joke no one likes them",
+    "tags": ["wind", "blow", "whoosh"]
+  },
+  {
+    "name": "txt_woosh",
+    "sprite": ["txt/woosh"],
+    "types": ["object"],
+    "color": [[5, 3]],
+    "tags": ["wind", "blow", "whoosh"]
+  },
+  {
+    "name": "candl",
+    "sprite": ["candl"],
+    "layer": 6,
+    "color": [[2, 2]],
+    "desc": "BURNNNNNNNNN",
+    "tags": ["candle", "fire", "light"]
+  },
+  {
+    "name": "txt_candl",
+    "sprite": ["txt/candl"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "tags": ["candle", "fire", "light"]
+  },
+  {
+    "name": "maglit",
+    "sprite": ["maglit", "no1"],
+    "layer": 6,
+    "color": [[0, 2], [0, 3]],
+    "painted": [true, false],
+    "rotate": true,
+    "desc": "turns on when its TORC",
+    "tags": ["maglight", "torchlight", "flashlight"]
+  },
+  {
+    "name": "txt_maglit",
+    "sprite": ["txt/maglit"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["maglight", "torchlight", "flashlight"]
+  },
+  {
+    "name": "txt_xplod",
+    "sprite": ["txt/xplod"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "desc": "The object created by nuek"
+  },
+  {
+    "name": "zig",
+    "sprite": ["zig"],
+    "layer": 5,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "v^v^v^, that's my textual representation of zigzag",
+    "tags": ["zigzag"]
+  },
+  {
+    "name": "txt_zig",
+    "sprite": ["txt/zig"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "zag",
+    "tags": ["zigzag"]
+  },
+  {
+    "name": "cracc",
+    "sprite": ["cracc"],
+    "layer": 5,
+    "color": [[0, 0]],
+    "desc": "just a cracc in the wals",
+    "tags": ["crack"]
+  },
+  {
+    "name": "txt_cracc",
+    "sprite": ["txt/cracc"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["crack"]
+  },
+  {
+    "name": "pixl",
+    "sprite": ["pixl"],
+    "layer": 5,
+    "color": [[0, 3]],
+    "desc": "a lil square half the size of a til",
+    "tags": ["pixel", "square", "block"]
+  },
+  {
+    "name": "txt_pixl",
+    "sprite": ["txt/pixl"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["pixel", "square", "block"]
+  },
+  {
+    "name": "voom",
+    "sprite": ["voom_handle", "voom_blade"],
+    "layer": 11,
+    "color": [[0, 2], [1, 3]],
+    "painted": [false, true],
+    "rotate": true,
+    "voice": "s_voom",
+    "desc": "britesaber",
+    "tags": ["lightsaber", "starwars", "jedi", "laser", "sword"]
+  },
+  {
+    "name": "txt_voom",
+    "sprite": ["txt/voom"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "desc": "a long time ago in a galaxy far, far away...",
+    "tags": ["lightsaber", "starwars", "jedi", "laser", "sword"]
+  },
+  {
+    "name": "qb",
+    "sprite": ["qb"],
+    "layer": 7,
+    "color": [[5, 2]],
+    "desc": "superbly normal thing",
+    "tags": ["cube", "block", "square"]
+  },
+  {
+    "name": "txt_qb",
+    "sprite": ["txt/qb"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "tags": ["cube", "block", "square"]
+  },
+  {
+    "name": "tanc",
+    "sprite": ["tanc"],
+    "layer": 9,
+    "color": [[5, 1]],
+    "rotate": true,
+    "desc": "it's comin towards ur house",
+    "tags": ["tank"]
+  },
+  {
+    "name": "txt_tanc",
+    "sprite": ["txt/tanc"],
+    "color": [[5, 1]],
+    "desc": "tanc u 4 playin",
+    "tags": ["tank"]
+  },
+  {
+    "name": "panlie",
+    "sprite": ["panlie_base", "panlie_syrup", "panlie_butter"],
+    "layer": 6,
+    "color": [[6, 2], [5, 4], [2, 4]],
+    "painted": [true, true, false],
+    "desc": "for niko",
+    "tags": ["pancake", "food"]
+  },
+  {
+    "name": "txt_panlie",
+    "sprite": ["txt/panlie"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["pancake", "food"]
+  },
+  {
+    "name": "pixbolt",
+    "sprite": ["pixbolt"],
+    "layer": 8,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "ouch!! ur pixls r sharp!!!",
+    "tags": ["pixelbolt"]
+  },
+  {
+    "name": "txt_pixbolt",
+    "sprite": ["txt/pixbolt"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "pixels are an element in my heart ok?",
+    "tags": ["pixelbolt"]
+  },
+  {
+    "name": "painbuct",
+    "sprite": ["painbuct", "painbuct_filled"],
+    "layer": 7,
+    "color": [[0, 2], [4, 3]],
+    "painted": [false, true],
+    "desc": "good 4 swim"
+  },
+  {
+    "name": "txt_painbuct",
+    "sprite": ["txt/painbuct"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "tags": ["paint bucket"]
+  },
+  {
+    "name": "sinyroc",
+    "sprite": ["sinyroc"],
+    "layer": 7,
+    "color": [[4, 2]],
+    "desc": "we...... . are the",
+    "tags": ["crystal gems"]
+  },
+  {
+    "name": "txt_sinyroc",
+    "sprite": ["txt/sinyroc"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "tags": ["gem", "shiny rock"]
+  },
+  {
+    "name": "nuzt",
+    "sprite": ["nuzt"],
+    "layer": 7,
+    "color": [[6, 2]],
+    "desc": "there is no joke. bab does not condone such jokes"
+  },
+  {
+    "name": "txt_nuzt",
+    "sprite": ["txt/nuzt"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "tags": ["peanut"]
+  },
+  {
+    "name": "cheez",
+    "sprite": ["cheez"],
+    "layer": 7,
+    "color": [[2, 4]],
+    "desc": "there is no joke. bab does not condone such jokes"
+  },
+  {
+    "name": "txt_cheez",
+    "sprite": ["txt/cheez"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["cheese"]
+  },
+  {
+    "name": "leser",
+    "sprite": ["leser"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "desc": "squimshcraft",
+    "tags": ["squishcraft","laser","bcat112"]
+  },
+  {
+    "name": "txt_leser",
+    "sprite": ["txt/leser"],
+    "types": ["object"],
+    "color": [[0, 2]],
+    "tags": ["squishcraft","laser","bcat112"]
+  }
+]

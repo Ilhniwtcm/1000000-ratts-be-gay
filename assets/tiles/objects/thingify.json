@@ -1,0 +1,113 @@
+[
+  {
+    "name": "sans",
+    "sprite": ["sans_base", "sans_jacket"],
+    "layer": 11,
+    "color": [[0, 3], [1, 3]],
+    "painted": [false, true],
+    "convertible": false,
+    "rotate": true,
+    "features": {
+      "sans": {"x": 19, "y": 5, "w": 2, "h": 2}
+    },
+    "voice": "overdriven guitar",
+    "desc": "ness in disguise\nDid you know that sans is a property too?",
+    "tags": ["chars", "sans", "undertale", "skeleton"],
+    "pronouns": ["he", "him"]
+  },
+  {
+    "name": "ditto",
+    "sprite": ["ditto"],
+    "layer": 11,
+    "color": [[3, 3]],
+    "txtify": "text_''",
+    "rotate": true,
+    "features": {
+      "which": {"x": 1, "y": 6},
+      "sant": {"y": 4},
+      "sans": {"x": 10, "y": 16, "w": 5, "h": 5},
+      "gunne": {}
+    },
+    "voice": "ditto",
+    "desc": "DITTO: The sprite changes based on its properties!",
+    "tags": ["chars", "ditto", "pokemon"]
+  },
+  {
+    "name": "copkat",
+    "sprite": ["copkat_base", "copkat_stuff", "copkat_badge"],
+    "layer": 11,
+    "color": [[0, 3], [1, 3], [2, 4]],
+    "painted": [true, false, false],
+    "convertible": false,
+    "rotate": true,
+    "features": {
+      "sans": {"x": 27, "y": 14, "w": 2, "h": 2}
+    },
+    "voice": "cat",
+    "desc": "u hav da wight to wemain siwent!!",
+    "tags": ["chars", "police", "cat"],
+    "pronouns": ["she", "her"]
+  },
+  {
+    "name": "zawarudo",
+    "display": "za warudo",
+    "sprite": ["zawarudo"],
+    "layer": 11,
+    "color": [[2, 4]],
+    "convertible": false,
+    "rotate": true,
+    "features": {
+      "sans": {"x": 19, "y": 10, "w": 2, "h": 2}
+    },
+    "voice": "muda",
+    "desc": "WRYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+    "tags": ["chars", "the world", "jojo", "DIO"]
+  },
+  {
+    "name": "&",
+    "sprite": ["and"],
+    "layer": 7,
+    "color": [[0, 3]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "only if all are true",
+    "tags": ["and gate", "logic gate"]
+  },
+  {
+    "name": "&n't",
+    "display": "& n't",
+    "sprite": ["andn't"],
+    "layer": 7,
+    "color": [[0, 3]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "only if not all are true",
+    "tags": ["nand gate", "logic gate"]
+  },
+  {
+    "name": "therealqt",
+    "display": "the real qt",
+    "sprite": ["therealqt"],
+    "layer": 22,
+    "color": [[4, 2]],
+    "txtify": "text_qt",
+    "desc": "the real qt"
+  },
+  {
+    "name": "the",
+    "sprite": ["the"],
+    "layer": 11,
+    "color": [[0, 3]],
+    "txtify": "text_the",
+    "rotate": true,
+    "features": {
+      "which": {"x": 1, "y": 6},
+      "sant": {"y": 4},
+      "sans": {"x": 10, "y": 16, "w": 5, "h": 5},
+      "gunne": {}
+    },
+    "voice": "meow",
+    "desc": "who wouldn't want a the",
+    "tags": ["object show", "the", "it's time for the","ITFT"]
+  }
+]
