@@ -25,7 +25,7 @@ Meow button
 
 Nero by [navisludge](https://navisludge.nekoweb.org)
 
-Circl and Circl(proot) by [Circl](circl-lastname.github.io)
+Circl and Circl(proot) by [Circl](https://circl-lastname.github.io)
 
 Localcapy based on Local Capybara by localcapybara from Discord/[Toyhouse](https://toyhou.se/Local_Capybara)/[Reddit](https://www.reddit.com/user/KITCALIBER-STAN/)
 
