@@ -16,7 +16,9 @@ Anyself(themself for any/all pronouns) retexture/rework
 Meow button
 ## Character credits
 (Will be properly updated as soon as i ask the owners of the characters how i should credit them)
+
 Literaly everyone except ilhniwtcm: not Ilhniwtcm
+
 ilhniwtcm: Ilhniwtcm
 
 ## Known bugs that are worked on:
