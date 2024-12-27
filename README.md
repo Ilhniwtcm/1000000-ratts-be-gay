@@ -24,7 +24,8 @@ Meow button
 (Will be properly updated as soon as i ask the owners of the characters how i should credit them)
 
 Nero by [navisludge](https://navisludge.nekoweb.org)
-Localcapy based on Local capybara by localcapybara from Discord/[Toyhouse](https://toyhou.se/Local_Capybara)/[reddit](https://www.reddit.com/user/KITCALIBER-STAN/)
+
+Localcapy based on Local capybara by localcapybara from Discord/[Toyhouse](https://toyhou.se/Local_Capybara)/[Reddit](https://www.reddit.com/user/KITCALIBER-STAN/)
 
 Literaly everyone else except ilhniwtcm: not Ilhniwtcm
 
