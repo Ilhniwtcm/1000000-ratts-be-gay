@@ -201,7 +201,6 @@ function undoOneAction(turn, i, v, ignore_no_undo)
       unit.color_override = value
     end
   elseif action == "negative_update" then
-    print("this code is running")
     unit = units_by_id[v[2]]
     if (unit ~= nil and (ignore_no_undo or not isNoUndo(unit))) then
       table.insert(to_update_negative,unit)

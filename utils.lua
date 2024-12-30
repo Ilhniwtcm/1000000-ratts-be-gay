@@ -4683,7 +4683,11 @@ function drawSprite(x, y, rotation, sx, sy, o)
         for i,image in ipairs(o.sprite) do
           setColor(o.color[i])
           if onlycolor or (#o.overlay > 0 and o.painted[i]) then
-            love.graphics.setColor(1,1,1,1)
+            if o.negative then
+              love.graphics.setColor(0,0,0,1)
+            else
+              love.graphics.setColor(1,1,1,1)
+            end
           end
           if not onlycolor or o.painted[i] then
             if image == "letter_custom" then
@@ -4722,7 +4726,7 @@ function drawSprite(x, y, rotation, sx, sy, o)
     pcallSetShader(xwxShader)
     drawSpriteMaybeOverlay()
     love.graphics.setShader()
-  elseif o.negative and not overlay then
+  elseif o.negative then
     pcallSetShader(negativeShader)
     drawSpriteMaybeOverlay()
     love.graphics.setShader()

@@ -954,7 +954,11 @@ function scene.draw(dt)
     if unit.name == "casete" and not hasProperty(unit, "nogo") then
       brightness = 0.5
     end
-    
+
+    if unit.name == "lemmy" and hasProperty(unit,"thicc") then
+      unit.sprite={"1575128079.lemmyz_malodorous_ref"}
+    end
+
     if timeless and not hasProperty(unit,"zawarudo") and not (unit.type == "txt") then
       brightness = 0.33
     end
@@ -1026,7 +1030,11 @@ function scene.draw(dt)
 			end
 
 			if #unit.overlay > 0 and type(unit.sprite) == "string" and eq(unit.color, getTile(unit.tile).color) then
-				love.graphics.setColor(1, 1, 1, unit.draw.opacity)
+        if unit.negative then 
+          love.graphics.setColor(0, 0, 0, unit.draw.opacity) 
+        else
+				  love.graphics.setColor(1, 1, 1, unit.draw.opacity)
+        end
 			else
 				love.graphics.setColor(color[1], color[2], color[3], unit.draw.opacity)
 			end
