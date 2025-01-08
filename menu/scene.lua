@@ -324,7 +324,7 @@ function scene.draw(dt)
     love.graphics.setColor(1, 1, 1)
     setRainbowModeColor(love.timer.getTime()/6, .6)
     --if haha number then make it rainbow anyways
-    if string.find(build_number, "420") or string.find(build_number, "1337") or string.find(build_number, "666") or string.find(build_number, "69") then
+    if string.find(build_number, "420") or string.find(build_number, "1337") or string.find(build_number, "666") or string.find(build_number, "69") or string.find(build_number, "621") or string.find(build_number, "926") or string.find(build_number, "413") or string.find(build_number, "2763") then
       love.graphics.setColor(hslToRgb(love.timer.getTime()%1, .5, .5, .9))
     end
     local height = love.graphics.getFont():getHeight()
