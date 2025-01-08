@@ -440,7 +440,7 @@ w = w-h, h = h}):center():setGroup("settings")
       else
         image_to_use = "unfinished"
       end
-    elseif selector_page == 9 then
+    elseif selector_page == 10 then
       image_to_use = "unfinished"
     end
     selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_"..image_to_use.."_a"], sprites["ui/selector_tab_"..image_to_use.."_h"])

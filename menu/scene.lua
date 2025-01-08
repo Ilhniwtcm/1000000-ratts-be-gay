@@ -85,6 +85,13 @@ function scene.buildUI()
     :setPivot(0.5, 0.5)
     :onPreDraw(function(o) ui.buttonFX(o, {rotate = false}) end)
     :onReleased(function() love.system.openURL("https://github.com/lilybeevee/bab-be-u") end)
+  git_btn2 = ui.component.new()
+    :setSprite(giticon)
+    :setColor(1, 1, 1)
+    :setPos(10, love.graphics.getHeight()-2*sprites["ui/github"]:getHeight()-10)
+    :setPivot(0.5, 0.5)
+    :onPreDraw(function(o) ui.buttonFX(o, {rotate = false}) end)
+    :onReleased(function() love.system.openURL("https://github.com/Ilhniwtcm/1000000-ratts-be-gay") end)
 
   local ox, oy
   if not options then
@@ -158,6 +165,7 @@ function scene.update(dt)
   end
 
   git_btn:setPos(tweens['git'].x, tweens['git'].y, sprites["ui/github"]:getHeight()+10, -sprites["ui/github"]:getHeight()-10, 1.2)
+  git_btn2:setPos(tweens['git'].x, tweens['git'].y-50, sprites["ui/github"]:getHeight()+10, -sprites["ui/github"]:getHeight()-10, 1.2)
 end
 
 function scene.draw(dt)
@@ -193,6 +201,7 @@ function scene.draw(dt)
     button:draw()
   end
   git_btn:draw()
+  git_btn2:draw()
 
   if not options then
     local bab_logo = sprites["ui/title/"..getTheme()] or sprites["ui/title/default"]
@@ -222,10 +231,11 @@ function scene.draw(dt)
     love.graphics.translate(-width/2, -height/20 + bab_logo:getHeight()/2)
     love.graphics.pop()
     -- Splash text here
+    splashtexts={"gee that sure is a lot of gay rats","bab be u!","*may not contain 1000000 homosexual rats","update in 5 hours","also check out ''bab be u omega''!!","meow :3","woof :3","amogus","dffdfgbjgnbnksnbsdfvd","gey","*insert lore here","i literally have no idea what to compose (at this) moment","ye","splosh txt!"}
     
     love.graphics.push()
     
-    if string.find(build_number, "420") or string.find(build_number, "1337") or string.find(build_number, "666") or string.find(build_number, "69") then
+    if string.find(build_number, "420") or string.find(build_number, "1337") or string.find(build_number, "666") or string.find(build_number, "69") or string.find(build_number, "621") or string.find(build_number, "926") or string.find(build_number, "413") or string.find(build_number, "2763") then
       love.graphics.setColor(hslToRgb(love.timer.getTime()%1, .5, .5, .9))
       splashtext = "nice"
     end
@@ -248,10 +258,8 @@ function scene.draw(dt)
       else
         splashtext = "spooky month!"
       end
-    elseif splash > 0.5 then
-      splashtext = "bab be u!"
     else
-      splashtext = "splosh txt!"
+      splashtext = splashtexts[math.ceil(splash*#splashtexts)]
     end
     
     local textx = width/2 + bab_logo:getWidth() / 2

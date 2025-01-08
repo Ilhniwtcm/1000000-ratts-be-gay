@@ -880,6 +880,7 @@ function updateUnits(undoing, big_update)
       timeless_split = {}
     end
     
+    
     --an attempt to prevent stacking split from crashing by limiting how many splits we try to do per tile. it's OK, it leads to weird traffic jams though because the rest of the units just stay still.
     local splits_per_tile = {}
     local split = getUnitsWithEffect("split")
@@ -965,6 +966,8 @@ function updateUnits(undoing, big_update)
       moveUnit(move.unit,move.x,move.y)
       addUndo({"update", move.unit.id, move.ox, move.oy, move.dir})
     end
+
+    
     
     to_destroy = handleDels(to_destroy)
     
@@ -1441,7 +1444,6 @@ function updateUnits(undoing, big_update)
         end
       end
     end
-    
     local issuper = getUnitsWithEffect("anti delet")
     local lvltransforms = {}
     for _,unit in ipairs(issuper) do
@@ -3985,7 +3987,9 @@ function updateDir(unit, dir, force)
   end
   return true
 end
-
+function updatePower()
+  
+end
 function updateNameBasedOnDir(unit)
   if unit.fullname == "txt_mayb" then
     should_parse_rules = true
