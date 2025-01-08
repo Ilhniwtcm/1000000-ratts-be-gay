@@ -29,6 +29,10 @@ Circl and Circl(proot) by [Circl](https://circl-lastname.github.io)
 
 Localcapy based on Local Capybara by localcapybara from Discord/[Toyhouse](https://toyhou.se/Local_Capybara)/[Reddit](https://www.reddit.com/user/KITCALIBER-STAN/)
 
+Shria by Shria
+
+Lemmy by Lemmy
+
 Literaly everyone else except ilhniwtcm: not Ilhniwtcm
 
 ilhniwtcm: Ilhniwtcm
