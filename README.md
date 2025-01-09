@@ -39,7 +39,7 @@ Lemmy by Lemmy
 
 Chip by Kemberchip
 
-
+Velvet by AxelOttl (mungyodance on Discord)
 
 Literaly everyone else except ilhniwtcm: not Ilhniwtcm
 
