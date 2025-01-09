@@ -21,7 +21,6 @@ Anyself(themself for any/all pronouns) retexture/rework
 
 Meow button
 ## Character credits
-(Will be properly updated as soon as i ask the owners of the characters how i should credit them)
 
 Nero by [navisludge](https://navisludge.nekoweb.org)
 
@@ -41,9 +40,7 @@ Chip by Kemberchip
 
 Velvet by AxelOttl (mungyodance on Discord)
 
-Literaly everyone else except ilhniwtcm: not Ilhniwtcm
-
-ilhniwtcm: Ilhniwtcm
+Ilhniwtcm by Ilhniwtcm
 
 ## Known bugs that are worked on:
 
