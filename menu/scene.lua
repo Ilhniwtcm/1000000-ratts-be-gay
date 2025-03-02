@@ -259,7 +259,27 @@ function scene.draw(dt)
         splashtext = "spooky month!"
       end
     else
-      splashtext = splashtexts[math.ceil(splash*#splashtexts)]
+      if bd[os.date("%d-%m")] then
+        local borners = bd[os.date("%d-%m")]--hehe
+        if #borners > 1 then
+          splashtext = "Happy birthday "..borners[1]
+          for _,i in ipairs(borners) do
+            if _>1 then 
+              splashtext = splashtext.." & "..i
+            end
+          end
+          splashtext = splashtext.."!!!"
+
+        else
+          if borners[1]=="lemmyhalf" then--lets just hope no one else in the game is born that day
+            splashtext = "ↄpy lf hday nmy!"
+          else
+            splashtext = "Happy birthday "..borners[1].."!!!"
+          end
+        end
+      else
+        splashtext = splashtexts[math.ceil(splash*#splashtexts)]
+      end
     end
     
     local textx = width/2 + bab_logo:getWidth() / 2

@@ -24,6 +24,20 @@ PACK_SPECIAL_V2 = "ss" -- KEY, VALUE
 profile = {
   name = "bab"
 }
+bd = {}
+bd["12-01"] = {"Circl"}
+bd["04-02"] = {"creature"}
+bd["25-02"] = {"Axel"}
+bd["02-03"] = {"Kenotte"}
+bd["05-03"] = {"lemmyhalf"}
+bd["07-04"] = {"Local"}
+bd["05-05"] = {"bab"} --https://github.com/lilybeevee/bab-be-u/commit/d6e20dac4d543dd50fe49acb2c5c817934678ed1 (first commit of bab)
+bd["27-05"] = {"Navi"}
+bd["30-08"] = {"Shria"}
+bd["04-09"] = {"Lemmy"}
+bd["08-09"] = {"Opossum","Ilhniwtcm"}
+bd["???"] = {"Chip"} --idk when it is
+
 
 defaultsettings = {
   master_vol = 1,
@@ -466,7 +480,7 @@ selector_grid_contents = {
     "lemmy","txt_lemmy",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     "velvet","txt_velvet",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     "chip","txt_chip",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"txt_negativ",
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    "kenotte","txt_kenotte",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -533,9 +547,9 @@ indefinite_objects_generator = {
   {"circls",{"circl","circl(proot)"},1,0,false},--both "circls"
   {"circls2",{"circl","circl(proot)"},1,3,false},--both "circls"+their metatext
   {"kijetesantakalu",{"sentry","lemmy"},1,0,false},--mustelids
-  {"kkkkkkkkk",{"sentry","velvet","toby","flof"},1,0,false},--canines
+  {"kkkkkkkkk",{"sentry","velvet","toby","flof","kenotte"},1,0,false},--canines
   {"everynyan",{"sentry","shria","kat","niko","copkat","steev"},1,0,false},--felines(slogkat's not there because they're a rodent)
-  {"mammevery1",{"kat","flof","fof","moo","toby","temmi","bunmy","notnat","she","slogkat","ally","b..er","niko","cavebab","boy","madi","steev","ratt","badi","der","hors","circl(proot)","localcapy","sentry","shria","nero","ace(poss)","lemmy","velvet","chip"},1,0,false},
+  {"mammevery1",{"kat","flof","fof","moo","toby","temmi","bunmy","notnat","she","slogkat","ally","b..er","niko","cavebab","boy","madi","steev","ratt","badi","der","hors","circl(proot)","localcapy","sentry","shria","nero","ace(poss)","lemmy","velvet","chip","kenotte"},1,0,false},
   --^mammals
   {"bogs",{"beeee","sneel","bog","enbybog","butflye","prime","grimkid","wurm","snom","slog","scorpino"},1,0,false},--bugs
   {"fishyyy",{"creb","fishe","humuhumunukunukuapua'a","starrfishe","shrim"},1,0,false},--aquatic creatures
@@ -543,12 +557,12 @@ indefinite_objects_generator = {
   {"from_earthn't",{"kirb","circl(proot)"},1,0,false},--aliens
   {"ghöst",{"ghostfren","boooo","err"},1,0,false},--ghosts
   {"huh?",{"ilhniwtcm","err","wut"},1,0,false},--"glitchy" characters
-  {"bab&frens",{"bab","kat","flof","babby","bad","fof","lila","vite","keek","creb","shrim","moo","toby","jij","pata","jill","meem","statoo","flamgo","migri","temmi","ballt","slab","zsoob","skul","beeee","gul","kva","bunmy","notnat","she","ghostfren","fishe","starrfishe","pidgin","slogkat","ally","butcher","robobot","snek","sneel","swan","b..er","pitta","wog","bog","enbybog","spoder","niko","kirb","ripof","cavebab","detox","nyowo","bup","butflye","boooo","prime","grimkid","boy","wurm","madi","angle","boogie","steev","ratt","badi","dvl","assh","han","iy","lisp","paw","humuhumunukunukuapua'a","snoman","pingu","der","ginn","snom","square","kapa","urei","ryugon","viruse","slog","triangle","os","hors","mimi","err","scorpino","oat","circl","circl(proot)","localcapy","sentry","shria","nero","ace(poss)","ilhniwtcm","lemmy","velvet","chip"},1,0,false},
+  {"bab&frens",{"bab","kat","flof","babby","bad","fof","lila","vite","keek","creb","shrim","moo","toby","jij","pata","jill","meem","statoo","flamgo","migri","temmi","ballt","slab","zsoob","skul","beeee","gul","kva","bunmy","notnat","she","ghostfren","fishe","starrfishe","pidgin","slogkat","ally","butcher","robobot","snek","sneel","swan","b..er","pitta","wog","bog","enbybog","spoder","niko","kirb","ripof","cavebab","detox","nyowo","bup","butflye","boooo","prime","grimkid","boy","wurm","madi","angle","boogie","steev","ratt","badi","dvl","assh","han","iy","lisp","paw","humuhumunukunukuapua'a","snoman","pingu","der","ginn","snom","square","kapa","urei","ryugon","viruse","slog","triangle","os","hors","mimi","err","scorpino","oat","circl","circl(proot)","localcapy","sentry","shria","nero","ace(poss)","ilhniwtcm","lemmy","velvet","chip","kenotte"},1,0,false},
   --^all characters 
   {"rattfrens",{"nero","ratt","sentry","localcapy","chip","slogkat"},1,0,false},--rodents
   {"anthro",{"sentry","nero","ace(poss)","circl(proot)","localcapy","shria","velvet","lemmy","chip","pata","lila","she","vite","jill","ally","pitta","niko","keek","meem","fof","wog","zsoob","kirb","urei","snoman","dvl","angle","ginn","badi","madi","boy","robobot","statoo","slogkat"},1,0,false},
   --^all anthromorphic objects(inc. humans)
-  {"aminal",{"bab","kat","flof","babby","bad","fof","creb","shrim","moo","toby","jij","pata","flamgo","migri","temmi","ballt","slab","beeee","gul","kva","bunmy","notnat","fishe","starrfishe","pidgin","slogkat","snek","sneel","swan","b..er","bog","enbybog","spoder","niko","cavebab","butflye","prime","grimkid","wurm","steev","ratt","humuhumunukunukuapua'a","pingu","der","snom","kapa","ryugon","slog","hors","scorpino","circl(proot)","localcapy","sentry","shria","nero","ace(poss)","lemmy","velvet","chip"},1,0,false},
+  {"aminal",{"bab","kat","flof","babby","bad","fof","creb","shrim","moo","toby","jij","pata","flamgo","migri","temmi","ballt","slab","beeee","gul","kva","bunmy","notnat","fishe","starrfishe","pidgin","slogkat","snek","sneel","swan","b..er","bog","enbybog","spoder","niko","cavebab","butflye","prime","grimkid","wurm","steev","ratt","humuhumunukunukuapua'a","pingu","der","snom","kapa","ryugon","slog","hors","scorpino","circl(proot)","localcapy","sentry","shria","nero","ace(poss)","lemmy","velvet","chip","kenotte"},1,0,false},
   --^all animals/animal shaped characters(excludes humans that aren't hybrids even though they technially fit)(includes fictional animals as well)
   {"phluid",{"laav","watr"},1,0,false},--fluids
   {"props",{"txt_u","txt_utoo","txt_utres","txt_y'all","txt_w","txt_:)","txt_noswim","txt_ouch","txt_protecc","txt_nxt","txt_stayther","txt_go","txt_goooo","txt_icy","txt_icyyyy","txt_stubbn","txt_:(","txt_nedkee","txt_fordor","txt_wurd","txt_nogo","txt_goawaypls","txt_comepls","txt_sidekik","txt_diagkik","txt_delet","txt_hotte","txt_fridgd","txt_thingify","txt_rythm","txt_curse","txt_visitfren","txt_slep","txt_shy...","txt_behinu","txt_walk","txt_:o","txt_moar","txt_split","txt_txtify","txt_dragbl","txt_nodrag","txt_flye","txt_tall","txt_haetskye","txt_haetflor","txt_zomb","txt_un:)","txt_gone","txt_nuek","txt_n'tify","txt_sans","txt_diag","txt_ortho","txt_gomyway","txt_boring","txt_bce","txt_notranform","txt_ify","txt_turncornr","txt_folowal","txt_hopovr","txt_reflecc","txt_reed","txt_orang","txt_yello","txt_grun","txt_cyeann","txt_munwalk","txt_sidestep","txt_diagstep","txt_knightstep","txt_tryagain","txt_noundo","txt_undo","txt_zawarudo","txt_brite","txt_torc","txt_tranparnt","txt_bleu","txt_purp","txt_pinc","txt_whit","txt_graey","txt_spin","txt_rotatbl","txt_noturn","txt_stukc","txt_poortoll","txt_goarnd","txt_mirrarnd","txt_glued","txt_rave","txt_colrful","txt_blacc","txt_brwn","txt_upleft","txt_up","txt_upright","txt_thicc","txt_her","txt_thr","txt_rithere","txt_stelth","txt_qt","txt_thonk","txt_cool","txt_left","txt_direction","txt_right","txt_gay","txt_lesbab","txt_tranz","txt_ace","txt_aro","txt_downleft","txt_down","txt_downright","txt_pan","txt_bi","txt_enby","txt_fluid","txt_πoly","txt_local","txt_global","txt_lazor","txt_negativ","txt_uwu"},0,1,false},

@@ -1888,7 +1888,11 @@ function miscUpdates(state_change)
       unit.overlay = {}
       for name,overlay in pairs(overlay_props) do
         if graphical_property_cache[name][unit] ~= nil then
-          table.insert(unit.overlay, overlay.sprite)
+          if unit.negative then
+            table.insert(unit.overlay, overlay.sprite)
+          else
+            table.insert(unit.overlay, overlay.sprite)
+          end
         end
       end
       

@@ -15,6 +15,20 @@ function clear()
     replay_pause = false
     replay_string = ""
   end
+  flux_list={
+    blacc = 0,
+    reed = 0,
+    orang = 0,
+    yello = 0,
+    grun = 0,
+    cyeann = 0,
+    bleu = 0,
+    purp = 0,
+    whit = 0,
+    pinc = 0,
+    graey = 0,
+    brwn = 0
+  }--set for power/power-like property that will be added
   rhythm_time = love.timer.getTime()
   rhythm_interval = settings["rhythm_interval"]
   rhythm_queued_movement = {0, 0, "wait"}
@@ -3927,13 +3941,16 @@ function getTheme()
       return cmdargs["theme"]
     end
   else
+    local date = os.date("%d-%m") 
     local month = tonumber(os.date("%m"))
     local day = tonumber(os.date("%d"))
     
-    if month == 10 and day == 31 then
+    if date == "31-10" then
       return "halloween"
     elseif (month == 12 and day > 24) or (month == 01 and day < 6) then
       return "christmas"
+    elseif bd[date] then
+      return "birthday"
     end
   end
   
