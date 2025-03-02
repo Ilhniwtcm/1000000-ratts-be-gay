@@ -42,6 +42,8 @@ Velvet by AxelOttl (mungyodance on Discord)
 
 Ilhniwtcm by Ilhniwtcm
 
+Kenotte by Kenotte
+
 ## Known bugs that are worked on:
 
 Overlays don't work with negativ objects
